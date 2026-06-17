@@ -271,7 +271,7 @@
 | 技术翻译专家 | `specialized/technical-translator-agent.md` |
 | ZK 管家 | `specialized/zk-steward.md` |
 
-## 🚚 供应链部 (4)
+## 🚚 供应链部 (5)
 
 | 中文名 | 文件路径 |
 |--------|----------|
@@ -279,6 +279,7 @@
 | 物流路线优化师 | `supply-chain/supply-chain-route-optimizer.md` |
 | 供应链采购策略师 | `supply-chain/supply-chain-strategist.md` |
 | 供应商评估专家 | `supply-chain/supply-chain-vendor-evaluator.md` |
+| 服装工厂规划工程师 | `supply-chain/supply-chain-garment-factory-planning-engineer.md` |
 
 ## 🤝 支持部 (7)
 

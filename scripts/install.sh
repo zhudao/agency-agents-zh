@@ -402,7 +402,15 @@ install_workbuddy() {
 
 install_hermes() {
   local src="$INTEGRATIONS/hermes"
-  local dest="${HOME}/.hermes/skills"
+  # 安装目录优先级（issue #82）：官方环境变量 HERMES_HOME > Windows 新版默认位置 > 传统位置
+  local dest
+  if [[ -n "${HERMES_HOME:-}" ]]; then
+    dest="${HERMES_HOME}/skills"
+  elif [[ -n "${LOCALAPPDATA:-}" && -d "${LOCALAPPDATA}/hermes" ]]; then
+    dest="${LOCALAPPDATA}/hermes/skills"
+  else
+    dest="${HOME}/.hermes/skills"
+  fi
   local count=0
 
   [[ -d "$src" ]] || { err "integrations/hermes 不存在。请先运行 convert.sh --tool hermes"; return 1; }
