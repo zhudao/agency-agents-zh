@@ -21,6 +21,7 @@
 #   codex        — OpenAI Codex CLI agent 文件 (.codex/agents/*.toml)
 #   deerflow     — DeerFlow 2.0 custom skill 文件 (skills/custom/<slug>/SKILL.md)
 #   workbuddy    — WorkBuddy skill 文件 (~/.workbuddy/skills/<slug>/SKILL.md)
+#   codewhale    — CodeWhale（原 DeepSeek-TUI）skill 文件 (~/.codewhale/skills/<slug>/SKILL.md)
 #   hermes       — Hermes Agent skill 文件 (~/.hermes/skills/<category>/<slug>/SKILL.md)
 #   kiro         — Kiro agent .md 文件 (.kiro/agents/*.md，带 YAML frontmatter)
 #   qoder        — Qoder 自定义智能体文件 (.qoder/agents/*.md)
@@ -50,8 +51,8 @@ OUT_DIR="$REPO_ROOT/integrations"
 TODAY="$(date +%Y-%m-%d)"
 
 AGENT_DIRS=(
-  academic design engineering finance game-development hr legal marketing paid-media sales product
-  project-management supply-chain testing support spatial-computing specialized
+  academic design engineering finance game-development gis hr legal marketing paid-media sales product
+  project-management security supply-chain testing support spatial-computing specialized
 )
 
 # --- 用法 ---
@@ -430,6 +431,7 @@ get_qoder_tools() {
     engineering)        echo "Read, Grep, Glob, Bash, Edit, Write" ;;
     finance)            echo "Read, Write, WebSearch" ;;
     game-development)   echo "Read, Bash, Edit, Write" ;;
+    gis)                echo "Read, Bash, Edit, Write, WebFetch" ;;
     hr)                 echo "Read, Write, WebFetch" ;;
     legal)              echo "Read, Write, WebFetch" ;;
     marketing)          echo "Read, Write, WebSearch, WebFetch" ;;
@@ -437,6 +439,7 @@ get_qoder_tools() {
     product)            echo "Read, Write, WebSearch, WebFetch" ;;
     project-management) echo "Read, Write, Bash" ;;
     sales)              echo "Read, Write, WebFetch, WebSearch" ;;
+    security)           echo "Read, Grep, Glob, Bash, Edit, Write" ;;
     spatial-computing)  echo "Read, Bash, Edit, Write" ;;
     specialized)        echo "Read, Write, WebFetch, WebSearch" ;;
     supply-chain)       echo "Read, Write, WebFetch" ;;
@@ -488,6 +491,29 @@ convert_workbuddy() {
 name: ${slug}
 description: ${description}
 allowed-tools: Read Write Edit Bash Grep Glob
+---
+${body}
+HEREDOC
+}
+
+# CodeWhale（原 DeepSeek-TUI）—— skill 文件 ~/.codewhale/skills/<slug>/SKILL.md
+# CodeWhale 的 /skills 从该目录加载，frontmatter 用 name + description（与内置 skill 一致）
+convert_codewhale() {
+  local file="$1"
+  local description slug outdir outfile body
+
+  description="$(get_field "description" "$file")"
+  slug="$(slugify_from_file "$file")"
+  body="$(get_body "$file")"
+
+  outdir="$OUT_DIR/codewhale/$slug"
+  outfile="$outdir/SKILL.md"
+  mkdir -p "$outdir"
+
+  cat > "$outfile" <<HEREDOC
+---
+name: ${slug}
+description: ${description}
 ---
 ${body}
 HEREDOC
@@ -645,6 +671,7 @@ run_conversions() {
         codex)       convert_codex       "$file" ;;
         deerflow)    convert_deerflow    "$file" ;;
         workbuddy)   convert_workbuddy   "$file" ;;
+        codewhale)   convert_codewhale   "$file" ;;
         hermes)      convert_hermes      "$file" ;;
         kiro)        convert_kiro        "$file" ;;
         qoder)       convert_qoder       "$file" ;;
@@ -674,7 +701,7 @@ main() {
     esac
   done
 
-  local valid_tools=("antigravity" "gemini-cli" "opencode" "cursor" "trae" "aider" "windsurf" "openclaw" "qwen" "codex" "deerflow" "workbuddy" "hermes" "kiro" "qoder" "all")
+  local valid_tools=("antigravity" "gemini-cli" "opencode" "cursor" "trae" "aider" "windsurf" "openclaw" "qwen" "codex" "deerflow" "workbuddy" "codewhale" "hermes" "kiro" "qoder" "all")
   local valid=false
   for t in "${valid_tools[@]}"; do [[ "$t" == "$tool" ]] && valid=true && break; done
   if ! $valid; then
@@ -690,7 +717,7 @@ main() {
 
   local tools_to_run=()
   if [[ "$tool" == "all" ]]; then
-    tools_to_run=("antigravity" "gemini-cli" "opencode" "cursor" "trae" "aider" "windsurf" "openclaw" "qwen" "codex" "deerflow" "workbuddy" "hermes" "kiro" "qoder")
+    tools_to_run=("antigravity" "gemini-cli" "opencode" "cursor" "trae" "aider" "windsurf" "openclaw" "qwen" "codex" "deerflow" "workbuddy" "codewhale" "hermes" "kiro" "qoder")
   else
     tools_to_run=("$tool")
   fi

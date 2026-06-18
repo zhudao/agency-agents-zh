@@ -2,7 +2,7 @@
 
 🌐 [簡體中文](README.md) | **繁體中文** | [English (upstream)](https://github.com/msitarzewski/agency-agents)
 
-> **197 個即插即用的 AI 專家角色** — 覆蓋工程、設計、行銷、產品、遊戲、安全、金融等 18 個部門。不是通用提示詞範本，每個智能體都有獨立的人設、專業流程和可交付成果。支援 Claude Code / Cursor / Copilot 等 17 種 AI 程式設計工具。
+> **266 個即插即用的 AI 專家角色** — 覆蓋工程、設計、行銷、產品、遊戲、安全、GIS、金融等 20 個部門。不是通用提示詞範本，每個智能體都有獨立的人設、專業流程和可交付成果。支援 Claude Code / Cursor / Copilot 等 18 種 AI 程式設計工具。
 
 [agency-agents](https://github.com/msitarzewski/agency-agents) 的中文社群版。在完整翻譯上游的基礎上，新增了 50 個中國市場原創智能體（小紅書、抖音、微信、B站、飛書、釘釘等平台運營，以及跨境電商、政務ToG、醫療合規、Qt 工業上位機、機械設計、畜禽養殖檔案核對等垂直領域）。
 
@@ -14,7 +14,68 @@
 
 | 🤖 AI 智能體 | 🌏 英文版翻譯 | 🇨🇳 中國市場原創 | 🧠 支援工具 | 🏢 部門 |
 |:---:|:---:|:---:|:---:|:---:|
-| **197** | **147** | **50** | **17 種** | **18 個** |
+| **266** | **215** | **50** | **18 種** | **20 個** |
+
+---
+
+## 🙏 贊助商 &nbsp;<sub>想出現在這裡？聯絡 [jnMetaCode@qq.com](mailto:jnMetaCode@qq.com)</sub>
+
+<p align="center">
+  <a href="https://apinebula.com/V6ekjG">
+    <img src="assets/sponsor-apinebula.jpeg" alt="APINEBULA — 企業級 AI 聚合平台，聚合 Claude / GPT / Gemini 滿血模型，一個接口接入全球頂尖大模型，價格低至 1 折起" width="100%">
+  </a>
+</p>
+
+感謝 [APINEBULA](https://apinebula.com/V6ekjG) 大屏贊助本專案！APINEBULA 是銀河錄像局旗下的企業級 AI 聚合平台，背靠大平台資源，面向開發者、團隊與企業用戶提供穩定、高性價比的大模型 API 接入服務。平台聚合 Claude、GPT、Gemini 等主流滿血模型，一個接口即可接入全球頂尖 AI 大模型，各大模型價格低至 1 折起，支持企業級高併發、正式合同、對公打款與開票服務，適合 AI 編程、Agent 開發、業務系統集成等多種場景！
+
+🎁 **點擊[此連結](https://apinebula.com/V6ekjG)註冊並在充值時填寫「agent」優惠碼，即可享九折優惠！**
+
+<hr>
+
+<table>
+<tr>
+<td width="55%">
+  <a href="https://passport.compshare.cn/register?referral_code=ETD3L5JBM13CtKARkMORot&ytag=GPU_YY_YX_git_agency-agents">
+    <img src="assets/sponsor-compshare.jpeg" alt="優雲智算 — 熱門國產模型按次調用套餐包，低至 49 元/月起" width="100%">
+  </a>
+</td>
+<td width="45%" valign="middle">
+
+感謝[優雲智算](https://passport.compshare.cn/register?referral_code=ETD3L5JBM13CtKARkMORot&ytag=GPU_YY_YX_git_agency-agents)贊助了本專案！優雲智算是 UCloud 旗下 AI 雲平台，主打包月、按次的高性價比國模 Agent Plan 套餐，低至 49 元/月起。同時提供官轉穩定海外模型。支持接入 Claude Code、Codex 及 API 調用。支持企業高併發、7*24 技術支持、自助開票。
+
+🎁 **通過[此連結](https://passport.compshare.cn/register?referral_code=ETD3L5JBM13CtKARkMORot&ytag=GPU_YY_YX_git_agency-agents)註冊的用戶，可得免費 5 元平台體驗金！**
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🚀 讓角色庫跑起來 · Agency Orchestrator
+
+> 一句話，讓多個 AI 專家自動組隊協作，幾分鐘交付完整方案。
+
+```bash
+npm install -g agency-orchestrator
+ao compose "幫我寫一篇關於 AI Agent 的深度分析文章" --run
+```
+
+**不想用命令列？** [**下載桌面客戶端**](https://github.com/jnMetaCode/agency-orchestrator/releases/latest)（原生 App，免裝 Node，macOS / Windows / Linux），或線上體驗 [ao.aiolaola.com](https://ao.aiolaola.com)。
+
+零程式碼編排 · DAG 並行 · 斷點續跑 · 10 種大模型（7 種免 key）· 現成模板開箱即用 —— [**了解 Agency Orchestrator →**](https://github.com/jnMetaCode/agency-orchestrator)
+
+---
+
+## 🖼️ 線上瀏覽全部專家（無需安裝）
+
+搜尋 / 按部門篩選 / 查看與**複製每位專家的完整提示詞** —— 全部 266 位，直接在瀏覽器裡看：
+
+<p align="center">
+  <a href="https://ao.aiolaola.com/experts">
+    <img src="assets/experts-gallery.png" alt="agency-agents 專家庫線上瀏覽" width="640"><br/>
+    <strong>🔗 線上專家庫 ao.aiolaola.com/experts →</strong>
+  </a>
+</p>
 
 ---
 
@@ -28,7 +89,7 @@
 
 ### 方式一：一鍵安裝到你的 AI 工具
 
-支援 **17 種主流 AI 程式設計工具**，一條命令搞定：
+支援 **18 種主流 AI 程式設計工具**，一條命令搞定：
 
 ```bash
 # 自動檢測已安裝的工具，一鍵安裝
@@ -50,6 +111,7 @@
 ./scripts/install.sh --tool codex          # Codex CLI
 ./scripts/install.sh --tool deerflow       # DeerFlow 2.0 (ByteDance)
 ./scripts/install.sh --tool workbuddy      # WorkBuddy (Tencent)
+./scripts/install.sh --tool codewhale      # CodeWhale (原 DeepSeek-TUI)
 ./scripts/install.sh --tool hermes         # Hermes Agent (NousResearch)
 ./scripts/install.sh --tool qoder          # Qoder
 ```
@@ -325,7 +387,7 @@ cp -r marketing/*.md ~/.claude/agents/
 | [LSP 索引工程師](specialized/lsp-index-engineer.md) | 程式碼智慧、語義索引 | 程式碼導航、IDE 整合 |
 | [報告分發師](specialized/report-distribution-agent.md) | 報告分發、多渠道推送 | 自動化報告分發 |
 | [銷售資料提取師](specialized/sales-data-extraction-agent.md) | 銷售資料採集、結構化 | CRM 資料處理 |
-| [合規審計師](specialized/compliance-auditor.md) | SOC 2/ISO 27001/HIPAA 合規 | 合規審計、安全認證 |
+| [合規審計師](security/security-compliance-auditor.md) | SOC 2/ISO 27001/HIPAA 合規 | 合規審計、安全認證 |
 | [養殖檔案核對員](specialized/livestock-archive-auditor.md) ⭐ | 養殖檔案、生產日報、批號 FIFO | 畜禽臺帳錯填漏填核對 |
 | [應付賬款智能體](specialized/accounts-payable-agent.md) | 發票處理、付款自動化 | 財務流程自動化 |
 | [身份圖譜操作員](specialized/identity-graph-operator.md) | 身份解析、多源匹配 | 使用者身份治理 |
@@ -333,7 +395,7 @@ cp -r marketing/*.md ~/.claude/agents/
 | [開發者佈道師](specialized/specialized-developer-advocate.md) | 開發者關係、DX 工程 | 開發者社群、技術推廣 |
 | [模型 QA 專家](specialized/specialized-model-qa.md) | ML 模型審計、質量驗證 | 模型上線前檢查 |
 | [ZK 管家](specialized/zk-steward.md) | Zettelkasten 知識管理 | 知識庫構建、筆記系統 |
-| [區塊鏈安全審計師](specialized/blockchain-security-auditor.md) | 智慧合約審計、漏洞檢測 | 合約安全、DeFi 審計 |
+| [區塊鏈安全審計師](security/security-blockchain-security-auditor.md) | 智慧合約審計、漏洞檢測 | 合約安全、DeFi 審計 |
 | [留學規劃顧問](specialized/study-abroad-advisor.md) ⭐ | 多國申請策略、選校定位 | 留學規劃、文書指導 |
 | [政務數字化售前顧問](specialized/government-digital-presales-consultant.md) ⭐ | 方案設計、標書、等保/信創 | 政務ToG專案售前 |
 | [企業培訓課程設計師](specialized/corporate-training-designer.md) ⭐ | ADDIE/SAM、企業學習平臺、TTT | 培訓體系搭建與課程開發 |
@@ -447,7 +509,7 @@ cp -r marketing/*.md ~/.claude/agents/
 
 ## 工具整合
 
-支援 **17 種主流 AI 程式設計工具**，透過 `scripts/` 目錄下的指令碼實現格式轉換和一鍵安裝。
+支援 **18 種主流 AI 程式設計工具**，透過 `scripts/` 目錄下的指令碼實現格式轉換和一鍵安裝。
 
 ### 支援的工具
 
@@ -637,7 +699,7 @@ cd /your/project
 
 **⚠️ 關於「裝了但幾乎不自動觸發」**（見 [issue #59](https://github.com/jnMetaCode/agency-agents-zh/issues/59)）：
 
-轉換出的 rule 預設 `alwaysApply: false` + 空 `globs:`，屬於 "agent-requested rule"——Trae 模型讀 description 自行決定是否載入。**全裝 215 條 rule 會讓 description 互相稀釋、幾乎命中不到任何一條**，這是設計行為不是 bug。
+轉換出的 rule 預設 `alwaysApply: false` + 空 `globs:`，屬於 "agent-requested rule"——Trae 模型讀 description 自行決定是否載入。**全裝 266 條 rule 會讓 description 互相稀釋、幾乎命中不到任何一條**，這是設計行為不是 bug。
 
 **正確姿勢**：
 

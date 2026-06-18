@@ -17,6 +17,7 @@ AGENT_DIRS=(
   engineering
   finance
   game-development
+  gis
   hr
   legal
   marketing
@@ -24,6 +25,7 @@ AGENT_DIRS=(
   product
   project-management
   sales
+  security
   spatial-computing
   specialized
   strategy

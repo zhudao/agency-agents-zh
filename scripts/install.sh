@@ -23,6 +23,7 @@
 #   codex        -- 复制到 .codex/agents/（项目级）
 #   deerflow     -- 复制到 DeerFlow custom skills 目录（Docker 项目级）
 #   workbuddy    -- 复制到 ~/.workbuddy/skills/（全局）
+#   codewhale    -- 复制到 ~/.codewhale/skills/（全局，原 DeepSeek-TUI）
 #   hermes       -- 复制到 ~/.hermes/skills/（全局）
 #   kiro         -- 复制到 ~/.kiro/agents/（全局）
 #   qoder        -- 复制到 .qoder/agents/（项目级）
@@ -58,7 +59,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 INTEGRATIONS="$REPO_ROOT/integrations"
 
-ALL_TOOLS=(claude-code copilot antigravity gemini-cli opencode openclaw cursor trae aider windsurf qwen codex deerflow workbuddy hermes kiro qoder)
+ALL_TOOLS=(claude-code copilot antigravity gemini-cli opencode openclaw cursor trae aider windsurf qwen codex deerflow workbuddy codewhale hermes kiro qoder)
 
 # --- 用法 ---
 usage() {
@@ -89,6 +90,7 @@ detect_qwen()         { command -v qwen >/dev/null 2>&1 || [[ -d "${HOME}/.qwen"
 detect_codex()        { command -v codex >/dev/null 2>&1 || [[ -d "${HOME}/.codex" ]]; }
 detect_deerflow()     { command -v deerflow >/dev/null 2>&1 || [[ -d "${HOME}/.deerflow" ]] || docker ps --format '{{.Names}}' 2>/dev/null | grep -q deerflow; }
 detect_workbuddy()    { command -v workbuddy >/dev/null 2>&1 || [[ -d "${HOME}/.workbuddy" ]]; }
+detect_codewhale()    { command -v codewhale >/dev/null 2>&1 || [[ -d "${HOME}/.codewhale" ]] || [[ -d "${HOME}/.deepseek" ]]; }
 detect_hermes()       { command -v hermes >/dev/null 2>&1 || [[ -d "${HOME}/.hermes" ]]; }
 detect_kiro()         { command -v kiro >/dev/null 2>&1 || command -v kiro-cli >/dev/null 2>&1 || [[ -d "${HOME}/.kiro" ]]; }
 detect_qoder()        { command -v qoder >/dev/null 2>&1 || [[ -d "${HOME}/.qoder" ]]; }
@@ -109,6 +111,7 @@ is_detected() {
     codex)       detect_codex       ;;
     deerflow)    detect_deerflow    ;;
     workbuddy)   detect_workbuddy   ;;
+    codewhale)   detect_codewhale   ;;
     hermes)      detect_hermes      ;;
     kiro)        detect_kiro        ;;
     qoder)       detect_qoder       ;;
@@ -132,6 +135,7 @@ tool_label() {
     codex)       printf "%-14s  %s" "Codex CLI"    "(.codex/agents)"        ;;
     deerflow)    printf "%-14s  %s" "DeerFlow"     "(skills/custom)"        ;;
     workbuddy)   printf "%-14s  %s" "WorkBuddy"    "(~/.workbuddy/skills)"  ;;
+    codewhale)   printf "%-14s  %s" "CodeWhale"    "(~/.codewhale/skills)"  ;;
     hermes)      printf "%-14s  %s" "Hermes Agent" "(~/.hermes/skills)"     ;;
     kiro)        printf "%-14s  %s" "Kiro"         "(~/.kiro/agents)"       ;;
     qoder)       printf "%-14s  %s" "Qoder"        "(.qoder/agents)"        ;;
@@ -145,8 +149,8 @@ install_claude_code() {
   local count=0
   mkdir -p "$dest"
   local dir f first_line
-  for dir in academic design engineering finance game-development hr legal marketing paid-media sales product \
-              project-management supply-chain testing support spatial-computing specialized; do
+  for dir in academic design engineering finance game-development gis hr legal marketing paid-media sales product \
+              project-management security supply-chain testing support spatial-computing specialized; do
     [[ -d "$REPO_ROOT/$dir" ]] || continue
     while IFS= read -r -d '' f; do
       first_line="$(head -1 "$f")"
@@ -164,8 +168,8 @@ install_copilot() {
   local count=0
   mkdir -p "$dest1" "$dest2"
   local dir f first_line
-  for dir in academic design engineering finance game-development hr legal marketing paid-media sales product \
-              project-management supply-chain testing support spatial-computing specialized; do
+  for dir in academic design engineering finance game-development gis hr legal marketing paid-media sales product \
+              project-management security supply-chain testing support spatial-computing specialized; do
     [[ -d "$REPO_ROOT/$dir" ]] || continue
     while IFS= read -r -d '' f; do
       first_line="$(head -1 "$f")"
@@ -400,6 +404,27 @@ install_workbuddy() {
   ok "WorkBuddy: $count 个 skills -> $dest"
 }
 
+install_codewhale() {
+  local src="$INTEGRATIONS/codewhale"
+  local dest="${HOME}/.codewhale/skills"
+  local count=0
+
+  [[ -d "$src" ]] || { err "integrations/codewhale 不存在。请先运行 convert.sh --tool codewhale"; return 1; }
+
+  mkdir -p "$dest"
+
+  local d
+  while IFS= read -r -d '' d; do
+    local name; name="$(basename "$d")"
+    [[ -f "$d/SKILL.md" ]] || continue
+    mkdir -p "$dest/$name"
+    cp "$d/SKILL.md" "$dest/$name/SKILL.md"
+    (( count++ )) || true
+  done < <(find "$src" -mindepth 1 -maxdepth 1 -type d -print0)
+
+  ok "CodeWhale: $count 个 skills -> $dest"
+}
+
 install_hermes() {
   local src="$INTEGRATIONS/hermes"
   # 安装目录优先级（issue #82）：官方环境变量 HERMES_HOME > Windows 新版默认位置 > 传统位置
@@ -510,6 +535,7 @@ install_tool() {
     codex)       install_codex       ;;
     deerflow)    install_deerflow    ;;
     workbuddy)   install_workbuddy   ;;
+    codewhale)   install_codewhale   ;;
     hermes)      install_hermes      ;;
     kiro)        install_kiro        ;;
     qoder)       install_qoder       ;;

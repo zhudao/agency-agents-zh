@@ -5,28 +5,26 @@
 ## 当前基线
 
 - **上游仓库**: https://github.com/msitarzewski/agency-agents
-- **对应 commit**: `783f6a7` (2026-04-12)
-- **上游智能体总数**: 184（不含 `strategy/` 16 个运营文档）
+- **对应 commit**: 已追平上游 2026-06-16 状态（`3f78a30`）
+- **2026-06-18 同步内容**:
+  - 新增 `gis/`(13) 与 `security/`(10) 两个部门（对应上游 `a077c9a` / `#572`）
+  - 补译上游 `783f6a7` 之后零散新增的 29 个 agent（engineering 6 / marketing 6 / specialized 14 / design 1 / sales 1 / project-management 1）
+  - 上游把 `specialized/blockchain-security-auditor`、`specialized/compliance-auditor` 搬到了 `security/`，本地已删旧的 specialized 副本、保留 security 版（去重）
+  - 上游把 `specialized/prompt-engineer` 改名搬成 `engineering/engineering-prompt-engineer`；本地的 `specialized/prompt-engineer`（中文名「提示词工程师」）是**原创**，与上游新角色并存，未删
+- **已译自上游总数**: 215（不含 `strategy/` 运营文档）；加 51 个中国原创，本地共 **266** 个智能体
+- **覆盖状态**: 已与上游达成 agent 文件级 parity（上游所有 agent 均有中文对应）
 
 ## 翻译覆盖
 
-| 分类 | 上游数量 | 已翻译/已映射 | 覆盖率 |
-|------|----------|---------------|--------|
-| academic | 5 | 5 | 100% |
-| design | 8 | 8 | 100% |
-| engineering | 29 | 29 | 100% |
-| finance | 5 | 5 | 100% |
-| game-development | 20 | 20 | 100% |
-| marketing | 30 | 30 | 100% |
-| paid-media | 7 | 7 | 100% |
-| product | 5 | 5 | 100% |
-| project-management | 6 | 6 | 100% |
-| sales | 8 | 8 | 100% |
-| spatial-computing | 6 | 6 | 100% |
-| specialized | 41 | 41 | 100% |
-| support | 6 | 6 | 100% |
-| testing | 8 | 8 | 100% |
-| **总计** | **184** | **184** | **100%** |
+截至 2026-06-18，本仓库已覆盖上游全部 agent（文件级 parity，上游每个 agent 都有中文对应）：
+
+| 来源 | 数量 |
+|------|------|
+| 已译自上游 | 215 |
+| 中国市场原创 | 51 |
+| **合计** | **266** |
+
+> 按部门明细见 [AGENT-LIST.md](./AGENT-LIST.md) 的「按部门统计」与「按来源统计」（权威来源，由实际文件生成；`scripts/check-counts.mjs` 会校验计数一致）。`strategy/` 目录为运营文档，不计入智能体数。
 
 > `strategy/` 目录是运营文档（playbooks / runbooks / 协作模板），上下游内容一致，不计入智能体覆盖率。
 
@@ -39,7 +37,7 @@
 | `marketing/marketing-bilibili-content-strategist.md` | `marketing/marketing-bilibili-strategist.md` |
 | `specialized/customer-service.md` | `support/support-support-responder.md`（拆分） |
 | `specialized/sales-outreach.md` | `sales/sales-outbound-strategist.md` |
-| `specialized/supply-chain-strategist.md` | `support/support-supply-chain-strategist.md` |
+| `specialized/supply-chain-strategist.md` | `supply-chain/supply-chain-strategist.md` |
 
 ## 中国市场原创智能体
 

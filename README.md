@@ -2,7 +2,7 @@
 
 🌐 **简体中文** | [繁體中文](README.zh-TW.md) | [English (upstream)](https://github.com/msitarzewski/agency-agents)
 
-> **216 个即插即用的 AI 专家角色** — 覆盖工程、设计、营销、产品、游戏、安全、金融等 18 个部门。不是通用提示词模板，每个智能体都有独立的人设、专业流程和可交付成果。支持 Claude Code / Cursor / Copilot 等 17 种 AI 编程工具。
+> **266 个即插即用的 AI 专家角色** — 覆盖工程、设计、营销、产品、游戏、安全、GIS、金融等 20 个部门。不是通用提示词模板，每个智能体都有独立的人设、专业流程和可交付成果。支持 Claude Code / Cursor / Copilot 等 18 种 AI 编程工具。
 
 [agency-agents](https://github.com/msitarzewski/agency-agents) 的中文社区版。在完整翻译上游的基础上，新增了 50 个中国市场原创智能体（小红书、抖音、微信、B站、飞书、钉钉等平台运营，以及跨境电商、政务ToG、医疗合规、Qt 工业上位机、机械设计、畜禽养殖档案核对等垂直领域）。
 
@@ -15,13 +15,25 @@
 
 | 🤖 AI 智能体 | 🌏 英文版翻译 | 🇨🇳 中国市场原创 | 🧠 支持工具 | 🏢 部门 |
 |:---:|:---:|:---:|:---:|:---:|
-| **216** | **165** | **50** | **17 种** | **18 个** |
+| **266** | **215** | **50** | **18 种** | **20 个** |
 
-> 📖 **配套阅读**：[《AI 编程实战 · 方法论三卷书》](https://book.aibuzhiyu.com/) — 10 个 AI 编程工具完整教程 + 真实踩坑 · 这个仓的 216 个角色装进 Claude Code / Cursor / Codex 后，配合方法论效率更高 · 在线书 + PDF · 永久免费
+> 📖 **配套阅读**：[《AI 编程实战 · 方法论三卷书》](https://book.aibuzhiyu.com/) — 10 个 AI 编程工具完整教程 + 真实踩坑 · 这个仓的 266 个角色装进 Claude Code / Cursor / Codex 后，配合方法论效率更高 · 在线书 + PDF · 永久免费
 
 ---
 
 ## 🙏 赞助商 &nbsp;<sub>想出现在这里？联系 [jnMetaCode@qq.com](mailto:jnMetaCode@qq.com)</sub>
+
+<p align="center">
+  <a href="https://apinebula.com/V6ekjG">
+    <img src="assets/sponsor-apinebula.jpeg" alt="APINEBULA — 企业级 AI 聚合平台，聚合 Claude / GPT / Gemini 满血模型，一个接口接入全球顶尖大模型，价格低至 1 折起" width="100%">
+  </a>
+</p>
+
+感谢 [APINEBULA](https://apinebula.com/V6ekjG) 大屏赞助本项目！APINEBULA 是银河录像局旗下的企业级 AI 聚合平台，背靠大平台资源，面向开发者、团队与企业用户提供稳定、高性价比的大模型 API 接入服务。平台聚合 Claude、GPT、Gemini 等主流满血模型，一个接口接入全球顶尖 AI 大模型，各大模型价格低至 1 折起，支持企业级高并发、正式合同、对公打款与开票服务，适合 AI 编程、Agent 开发、业务系统集成等多种场景！
+
+🎁 **通过[此链接](https://apinebula.com/V6ekjG)注册并在充值时填写 "agent" 优惠码可享九折优惠！**
+
+<hr>
 
 <table>
 <tr>
@@ -59,7 +71,7 @@ ao compose "帮我写一篇关于 AI Agent 的深度分析文章" --run
 
 ## 🖼️ 在线浏览全部专家（无需安装）
 
-搜索 / 按部门筛选 / 查看与**复制每位专家的完整提示词** —— 全部 216 位，直接在浏览器里看：
+搜索 / 按部门筛选 / 查看与**复制每位专家的完整提示词** —— 全部 266 位，直接在浏览器里看：
 
 <p align="center">
   <a href="https://ao.aiolaola.com/experts">
@@ -82,7 +94,7 @@ ao compose "帮我写一篇关于 AI Agent 的深度分析文章" --run
 
 ### 方式一：一键安装到你的 AI 工具
 
-支持 **17 种主流 AI 编程工具**，一条命令搞定：
+支持 **18 种主流 AI 编程工具**，一条命令搞定：
 
 ```bash
 # 自动检测已安装的工具，一键安装
@@ -104,6 +116,7 @@ ao compose "帮我写一篇关于 AI Agent 的深度分析文章" --run
 ./scripts/install.sh --tool codex          # Codex CLI
 ./scripts/install.sh --tool deerflow       # DeerFlow 2.0 (ByteDance)
 ./scripts/install.sh --tool workbuddy      # WorkBuddy (Tencent)
+./scripts/install.sh --tool codewhale      # CodeWhale (原 DeepSeek-TUI)
 ./scripts/install.sh --tool hermes         # Hermes Agent (NousResearch)
 ./scripts/install.sh --tool qoder          # Qoder
 ```
@@ -385,14 +398,14 @@ cp -r marketing/*.md ~/.claude/agents/
 | [LSP 索引工程师](specialized/lsp-index-engineer.md) | 代码智能、语义索引 | 代码导航、IDE 集成 |
 | [报告分发师](specialized/report-distribution-agent.md) | 报告分发、多渠道推送 | 自动化报告分发 |
 | [销售数据提取师](specialized/sales-data-extraction-agent.md) | 销售数据采集、结构化 | CRM 数据处理 |
-| [合规审计师](specialized/compliance-auditor.md) | SOC 2/ISO 27001/HIPAA 合规 | 合规审计、安全认证 |
+| [合规审计师](security/security-compliance-auditor.md) | SOC 2/ISO 27001/HIPAA 合规 | 合规审计、安全认证 |
 | [应付账款智能体](specialized/accounts-payable-agent.md) | 发票处理、付款自动化 | 财务流程自动化 |
 | [身份图谱操作员](specialized/identity-graph-operator.md) | 身份解析、多源匹配 | 用户身份治理 |
 | [文化智能策略师](specialized/specialized-cultural-intelligence-strategist.md) | 文化洞察、跨文化设计 | 全球化产品、本地化策略 |
 | [开发者布道师](specialized/specialized-developer-advocate.md) | 开发者关系、DX 工程 | 开发者社区、技术推广 |
 | [模型 QA 专家](specialized/specialized-model-qa.md) | ML 模型审计、质量验证 | 模型上线前检查 |
 | [ZK 管家](specialized/zk-steward.md) | Zettelkasten 知识管理 | 知识库构建、笔记系统 |
-| [区块链安全审计师](specialized/blockchain-security-auditor.md) | 智能合约审计、漏洞检测 | 合约安全、DeFi 审计 |
+| [区块链安全审计师](security/security-blockchain-security-auditor.md) | 智能合约审计、漏洞检测 | 合约安全、DeFi 审计 |
 | [留学规划顾问](specialized/study-abroad-advisor.md) ⭐ | 多国申请策略、选校定位 | 留学规划、文书指导 |
 | [政务数字化售前顾问](specialized/government-digital-presales-consultant.md) ⭐ | 方案设计、标书、等保/信创 | 政务ToG项目售前 |
 | [企业培训课程设计师](specialized/corporate-training-designer.md) ⭐ | ADDIE/SAM、企业学习平台、TTT | 培训体系搭建与课程开发 |
@@ -511,7 +524,7 @@ cp -r marketing/*.md ~/.claude/agents/
 
 ## 工具集成
 
-支持 **17 种主流 AI 编程工具**，通过 `scripts/` 目录下的脚本实现格式转换和一键安装。
+支持 **18 种主流 AI 编程工具**，通过 `scripts/` 目录下的脚本实现格式转换和一键安装。
 
 ### 支持的工具
 
@@ -531,6 +544,7 @@ cp -r marketing/*.md ~/.claude/agents/
 | **Windsurf** | `.windsurfrules` | 项目级，需转换 |
 | **Codex CLI** | `.codex/agents/` | 项目级，需转换 |
 | **WorkBuddy** (腾讯) | `~/.workbuddy/skills/` | 全局，需转换 |
+| **CodeWhale** (原 DeepSeek-TUI) | `~/.codewhale/skills/` | 全局，需转换 |
 | **Hermes Agent** (NousResearch) | `~/.hermes/skills/` | 全局，需转换 |
 | **DeerFlow 2.0** (字节跳动) | `skills/custom/` | 项目级，需转换 |
 | **Qoder** | `~/.qoder/agents/` 或 `.qoder/agents/` | 全局/项目级，需转换 |
@@ -701,7 +715,7 @@ cd /your/project
 
 **⚠️ 关于"装了但几乎不自动触发"**（见 [issue #59](https://github.com/jnMetaCode/agency-agents-zh/issues/59)）：
 
-转换出的 rule 默认 `alwaysApply: false` + 空 `globs:`，属于 "agent-requested rule"——Trae 模型读 description 自行决定是否加载。**全装 216 条 rule 会让 description 互相稀释、几乎命中不到任何一条**，这是设计行为不是 bug。
+转换出的 rule 默认 `alwaysApply: false` + 空 `globs:`，属于 "agent-requested rule"——Trae 模型读 description 自行决定是否加载。**全装 266 条 rule 会让 description 互相稀释、几乎命中不到任何一条**，这是设计行为不是 bug。
 
 **正确姿势**：
 
@@ -799,6 +813,19 @@ kiro-cli --agent engineering-frontend-developer
 ```
 
 安装后重启 WorkBuddy 即可在技能列表中看到所有智能体。
+</details>
+
+<details>
+<summary><strong>CodeWhale（原 DeepSeek-TUI）</strong></summary>
+
+专为 DeepSeek 优化、对国内网络友好的终端编程 Agent（Rust 实现，原名 DeepSeek-TUI）。每个智能体转换为 `SKILL.md` 技能文件，安装到 `~/.codewhale/skills/`（全局），在 CodeWhale 里用 `/skills` 加载。
+
+```bash
+./scripts/convert.sh --tool codewhale
+./scripts/install.sh --tool codewhale
+```
+
+安装后在 CodeWhale 中输入 `/skills` 即可看到并调用所有智能体。
 </details>
 
 <details>
@@ -935,13 +962,14 @@ DEERFLOW_SKILLS_DIR=/path/to/deerflow/skills/custom ./scripts/install.sh --tool 
 
 | 项目 | 定位 | 一句话 |
 |------|------|-------|
-| **本项目**（agency-agents-zh） ![](https://img.shields.io/github/stars/jnMetaCode/agency-agents-zh?style=flat&label=⭐) | 🎭 专家角色库 | 216 个**即插即用** AI 专家，含 50 中国原创（小红书 / 抖音 / 飞书 / 钉钉 / Qt 上位机 / 机械设计） |
-| [agency-orchestrator](https://github.com/jnMetaCode/agency-orchestrator) | 🚀 编排引擎 | 一句话 → 216 专家协作，**几分钟出方案**（10 家 LLM / 7 免费） |
+| **本项目**（agency-agents-zh） ![](https://img.shields.io/github/stars/jnMetaCode/agency-agents-zh?style=flat&label=⭐) | 🎭 专家角色库 | 266 个**即插即用** AI 专家，含 50 中国原创（小红书 / 抖音 / 飞书 / 钉钉 / Qt 上位机 / 机械设计） |
+| [agency-orchestrator](https://github.com/jnMetaCode/agency-orchestrator) | 🚀 编排引擎 | 一句话 → 266 专家协作，**几分钟出方案**（10 家 LLM / 7 免费） |
 | [superpowers-zh](https://github.com/jnMetaCode/superpowers-zh) ![](https://img.shields.io/github/stars/jnMetaCode/superpowers-zh?style=flat&label=⭐) | 🧠 工作方法论 | 20 个 skills 教 AI 怎么干活（TDD / 调试 / 代码审查等） |
 | [ai-coding-guide](https://github.com/jnMetaCode/ai-coding-guide) | 📖 实战教程 | 66 个 Claude Code 技巧 + 9 款工具最佳实践 + 配置模板 |
 | [shellward](https://github.com/jnMetaCode/shellward) | 🛡️ 安全中间件 | 8 层防御 + DLP 数据流 + 注入检测，**零依赖**（含 MCP Server） |
 | 🆕 [ai-shortfilm-prompts](https://github.com/jnMetaCode/ai-shortfilm-prompts) | 🎬 视频提示词 | Mx-Shell《丧尸清道夫》5 段式方法论 + Skill，Seedance / 小云雀 / Sora / 可灵 / 即梦通用 |
 | 🆕 [local-agent-toolkit](https://github.com/jnMetaCode/local-agent-toolkit) | 🛠️ Agent 本地三件套 | 给 agent 配上**记忆 / 技能管理 / 运行追踪**，零依赖、数据不出本机（engram · skillet · tracelet，npx 即用） |
+| 🆕 [codepet](https://github.com/jnMetaCode/codepet) | 🐾 桌面养成桌宠 | 码宠 CodePet —— 你写代码 / 用 Claude Code，它就涨经验、升级、换状态、跳舞。**全本地、隐私优先、开源** |
 
 ---
 
@@ -960,7 +988,7 @@ MIT License — 自由使用，商业或个人均可。
 
 <div align="center">
 
-**216 个 AI 专家角色，17 种工具支持，即装即用**
+**266 个 AI 专家角色，18 种工具支持，即装即用**
 
 [⭐ Star 本项目](https://github.com/jnMetaCode/agency-agents-zh) · [提交 Issue](https://github.com/jnMetaCode/agency-agents-zh/issues) · [贡献代码](https://github.com/jnMetaCode/agency-agents-zh/pulls)
 
