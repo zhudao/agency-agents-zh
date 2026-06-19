@@ -39,6 +39,7 @@ const checkFile = (file, regex, label) => {
 
 checkFile("AGENT-LIST.md", /记录项目中所有\s*(\d+)\s*个/, "头部总数");
 checkFile("README.md", /(\d+)\s*个即插即用/, "项目规模");
+checkFile("package.json", /(\d+)\s*个即插即用/, "包描述");
 
 if (problems.length) {
   console.error(`❌ 角色计数不一致（实际 ${actual} 个）：`);
