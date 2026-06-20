@@ -1,5 +1,15 @@
 # agency-agents 中文版（AI 智能體專家團隊）繁體中文
 
+
+
+
+<!-- aiolaola:start -->
+> 📖 **免费配套学习** · [aiOlaOla — 从零学会 AI 编程 →](https://aiolaola.com/?utm_source=github&utm_campaign=agents)
+> 180 节免费实操课 + 《AI 编程实战三卷书》在线读 + 实战社区 + AI 助教 · **永久免费,登录即学。**
+>
+> 🌟 **姐妹项目**:[agency-orchestrator ⭐1.4k](https://github.com/jnMetaCode/agency-orchestrator) · [superpowers-zh ⭐5.6k](https://github.com/jnMetaCode/superpowers-zh) · [ai-shortfilm-prompts](https://github.com/jnMetaCode/ai-shortfilm-prompts) · [ai-coding-trilogy](https://github.com/jnMetaCode/ai-coding-trilogy) · [ai-coding-guide ⭐405](https://github.com/jnMetaCode/ai-coding-guide)
+<!-- aiolaola:end -->
+
 🌐 [簡體中文](README.md) | **繁體中文** | [English (upstream)](https://github.com/msitarzewski/agency-agents)
 
 > **266 個即插即用的 AI 專家角色** — 覆蓋工程、設計、行銷、產品、遊戲、安全、GIS、金融等 20 個部門。不是通用提示詞範本，每個智能體都有獨立的人設、專業流程和可交付成果。支援 Claude Code / Cursor / Copilot 等 18 種 AI 程式設計工具。
@@ -60,7 +70,7 @@ npm install -g agency-orchestrator
 ao compose "幫我寫一篇關於 AI Agent 的深度分析文章" --run
 ```
 
-**不想用命令列？** [**下載桌面客戶端**](https://github.com/jnMetaCode/agency-orchestrator/releases/latest)（原生 App，免裝 Node，macOS / Windows / Linux），或線上體驗 [ao.aiolaola.com](https://ao.aiolaola.com)。
+**不想用命令列？** [**下載桌面客戶端**](https://github.com/jnMetaCode/agency-orchestrator/releases/latest)（原生 App，免裝 Node，macOS / Windows / Linux），或線上體驗 [ao.aiolaola.com/experts](https://ao.aiolaola.com/experts)。
 
 零程式碼編排 · DAG 並行 · 斷點續跑 · 10 種大模型（7 種免 key）· 現成模板開箱即用 —— [**了解 Agency Orchestrator →**](https://github.com/jnMetaCode/agency-orchestrator)
 

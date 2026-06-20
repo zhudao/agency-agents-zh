@@ -17,7 +17,7 @@
 |:---:|:---:|:---:|:---:|:---:|
 | **266** | **215** | **50** | **18 种** | **20 个** |
 
-> 📖 **配套学习**：[aiOlaOla — 学 · 用 · 创造 AI](https://aiolaola.com/) — 180 节免费 AI 编程课 + 《方法论三卷书》+ 实战社区 · 这个仓的 266 个角色装进 Claude Code / Cursor / Codex 后，配合方法论效率更高 · 一个账号解锁全部 · 永久免费
+> 📖 **免费配套学习** → [从零学会 AI 编程](https://aiolaola.com/?utm_source=github&utm_campaign=agents)：180 节免费实操课 + 《AI 编程实战三卷书》在线阅读 + 实战社区 · 把这个仓的 216 个角色装进 Claude Code / Cursor / Codex 后配合方法论更高效 · 永久免费
 
 ---
 
@@ -63,7 +63,7 @@ npm install -g agency-orchestrator
 ao compose "帮我写一篇关于 AI Agent 的深度分析文章" --run
 ```
 
-**不想用命令行？** [**下载桌面客户端**](https://github.com/jnMetaCode/agency-orchestrator/releases/latest)（原生 App，免装 Node，macOS / Windows / Linux），或在线体验 [ao.aiolaola.com](https://ao.aiolaola.com)。
+**不想用命令行？** [**下载桌面客户端**](https://github.com/jnMetaCode/agency-orchestrator/releases/latest)（原生 App，免装 Node，macOS / Windows / Linux），或在线体验 [ao.aiolaola.com/experts](https://ao.aiolaola.com/experts)。
 
 零代码编排 · DAG 并行 · 断点续跑 · 10 种大模型（7 种免 key）· 现成模板开箱即用 —— [**了解 Agency Orchestrator →**](https://github.com/jnMetaCode/agency-orchestrator)
 
@@ -949,12 +949,24 @@ DEERFLOW_SKILLS_DIR=/path/to/deerflow/skills/custom ./scripts/install.sh --tool 
 
 ## 交流 · Community
 
+<table>
+<tr>
+<td width="170" align="center">
+<img src="assets/qr-wechat.jpg" width="150" alt="微信公众号 AI不止语 二维码"><br>
+<sub>微信扫码关注</sub>
+</td>
+<td>
+
 微信公众号 **「AI不止语」**（微信搜索 `AI_BuZhiYu`）— 技术问答 · 项目更新 · 实战文章
 
 | 渠道 | 加入方式 |
 |------|---------|
 | QQ 2群 | [点击加入](https://qm.qq.com/q/EeNQA9xCxy)（群号 1071280067） |
 | 微信群 | 关注公众号后回复「群」获取入群方式 |
+
+</td>
+</tr>
+</table>
 
 ---
 
