@@ -52,6 +52,21 @@
 </tr>
 </table>
 
+<table>
+<tr>
+<td width="25%">
+  <a href="https://rootflowai.com/?utm_source=agency-agents-zh&utm_medium=sponsor&utm_campaign=github-readme">
+    <img src="assets/sponsor-rootflowai.jpeg" alt="RootFlowAI — 绝不掺水的纯粹算力源，一站式大模型 API 聚合平台，聚合 Claude / GPT / Gemini / 绘图 / 视频 / 多模态" width="100%">
+  </a>
+</td>
+<td width="75%" valign="middle">
+
+感谢 [RootFlowAI](https://rootflowai.com/?utm_source=agency-agents-zh&utm_medium=sponsor&utm_campaign=github-readme) 赞助本项目！RootFlowAI 是面向开发者、团队与企业的大模型 API 聚合平台，聚合 Claude、GPT、Gemini、绘图、视频与多模态模型，支持价格对比、调用日志、服务状态监控与余额账单管理。提供企业级高并发保障、7×24 技术支持、合同签约、对公打款与开票服务，适用于 AI 编程、Agent 开发、业务系统集成与企业集采场景。🎁 **[注册](https://rootflowai.com/register?utm_source=agency-agents-zh&utm_medium=sponsor&utm_campaign=github-readme)成功后，添加企业微信服务群即可领取 $10 免费体验额度！**
+
+</td>
+</tr>
+</table>
+
 ---
 
 ## 🚀 让角色库跑起来 · Agency Orchestrator
