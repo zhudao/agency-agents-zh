@@ -74,6 +74,36 @@
 </tr>
 </table>
 
+<table>
+<tr>
+<td width="25%">
+  <a href="https://cubence.com/signup?code=SCW29JP9&source=agency">
+    <img src="assets/sponsor-cubence.jpeg" alt="Cubence — 專業 AI API 閘道，穩定高效的 API 中轉服務，支持 Claude Code、Codex、Gemini 等多種模型" width="100%">
+  </a>
+</td>
+<td width="75%" valign="middle">
+
+感謝 [Cubence](https://cubence.com/signup?code=SCW29JP9&source=agency) 對本專案的支持。Cubence 是一家致力為客戶提供穩定、高效的 API 中轉服務商。從 25 年 9 月營運至今，提供了 Claude Code、Codex、Gemini 等多種模型支持。Cubence 為本開源專案多用戶提供了特別的**專屬優惠 `AGENCY`，在首次購買時享受 9 折優惠！**
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="25%">
+  <a href="https://www.ccsub.net/register?ref=8G5W4JK4">
+    <img src="assets/sponsor-ccsub.jpeg" alt="CCSub — 穩定、實惠的 AI API 中轉平台，一個 Key 涵蓋 Claude / GPT / Gemini 全系列模型，價格約為官方直連的 1/3" width="100%">
+  </a>
+</td>
+<td width="75%" valign="middle">
+
+感謝 [CCSub](https://www.ccsub.net/register?ref=8G5W4JK4) 贊助本專案！CCSub 是穩定、實惠的 AI API 中轉平台，是 Claude Code 官方訂閱的超強平替。一個 API Key 即可調用 Claude Opus 4.8、Sonnet 4.6、Haiku 4.5、GPT-5、Gemini 全系列模型，價格約為官方直連的 1/3，全球直連無需翻牆。相容 Claude Code、Codex、Cursor、Cline、Continue、Windsurf 等所有主流 AI 編程工具。🎁 **前往 [www.ccsub.net](https://www.ccsub.net/register?ref=8G5W4JK4) 註冊即送 $5 體驗額度！**
+
+</td>
+</tr>
+</table>
+
 ---
 
 ## 🚀 讓角色庫跑起來 · Agency Orchestrator
