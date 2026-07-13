@@ -107,6 +107,8 @@ resolve_opencode_color() {
     lime)           echo "#84CC16" ;;
     gray)           echo "#6B7280" ;;
     fuchsia)        echo "#D946EF" ;;
+    navy)           echo "#000080" ;;
+    slate)          echo "#475569" ;;
     *)              echo "$c" ;;
   esac
 }

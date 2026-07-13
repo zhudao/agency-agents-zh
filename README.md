@@ -97,6 +97,22 @@
 </tr>
 </table>
 
+<table>
+<tr>
+<td width="25%">
+  <a href="https://www.volcengine.com/activity/ai618?utm_campaign=hw&utm_content=hw&utm_medium=devrel_tool_web&utm_source=OWO&utm_term=agency-agents-zh">
+    <img src="assets/sponsor-volcengine.jpeg" alt="火山引擎 — 豆包大模型限时 5 折起，编程模型套餐 2.5 折订阅，支持 Kimi-K2.7、GLM-5.2 等主流模型" width="100%">
+  </a>
+</td>
+<td width="75%" valign="middle">
+
+感谢 [火山引擎](https://www.volcengine.com/activity/ai618?utm_campaign=hw&utm_content=hw&utm_medium=devrel_tool_web&utm_source=OWO&utm_term=agency-agents-zh) 赞助了本项目！火山引擎AI巅峰盛惠来袭！豆包大模型限时5折起，19元即可入手约440万Tokens文本模型，新客首单再享AI统一节省计划。从文本生成、图像创作到视频合成、语音复刻，全模态AI能力一站式配齐。开发者专属编程模型套餐2.5折订阅，支持Kimi-K2.7、GLM-5.2等主流模型。
+🎁 **注册即领2500万Tokens，立即访问火山引擎活动页面抢购。**
+
+</td>
+</tr>
+</table>
+
 ---
 
 ## 🚀 让角色库跑起来 · Agency Orchestrator
@@ -220,6 +236,7 @@ cp -r marketing/*.md ~/.claude/agents/
 | [嵌入式 Linux 驱动工程师](engineering/engineering-embedded-linux-driver-engineer.md) ⭐ | 内核模块、设备树、Platform/I2C/SPI 驱动 | 嵌入式 Linux BSP 开发 |
 | [FPGA/ASIC 数字设计工程师](engineering/engineering-fpga-digital-design-engineer.md) ⭐ | Verilog/SystemVerilog、时序收敛、AXI 总线 | FPGA 开发、数字逻辑设计 |
 | [IoT 方案架构师](engineering/engineering-iot-solution-architect.md) ⭐ | MQTT/CoAP、边缘计算、设备管理、云平台 | 物联网端到端方案设计 |
+| [国内网络工程师](engineering/engineering-network-engineer-china.md) ⭐ | 华为 VRP/华三 Comware/锐捷、VLAN/OSPF/BGP/VXLAN、信创国产化、等保组网 | 国产设备园区网/数据中心/广域网 |
 | [故障响应指挥官](engineering/engineering-incident-response-commander.md) | 故障处置、SLO 管理、事后复盘 | 线上故障、应急响应 |
 | [威胁检测工程师](engineering/engineering-threat-detection-engineer.md) | SIEM、威胁狩猎、检测规则 | 安全运营、威胁检测 |
 | [Solidity 智能合约工程师](engineering/engineering-solidity-smart-contract-engineer.md) | Solidity、EVM、Gas 优化、DeFi | 智能合约开发、Web3 |

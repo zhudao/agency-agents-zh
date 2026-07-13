@@ -1,14 +1,4 @@
-# agency-agents 中文版（AI 智能體專家團隊）繁體中文
-
-
-
-
-<!-- aiolaola:start -->
-> 📖 **免费配套学习** · [aiOlaOla — 从零学会 AI 编程 →](https://aiolaola.com/?utm_source=github&utm_campaign=agents)
-> 180 节免费实操课 + 《AI 编程实战三卷书》在线读 + 实战社区 + AI 助教 · **永久免费,登录即学。**
->
-> 🌟 **姐妹项目**:[agency-orchestrator ⭐1.4k](https://github.com/jnMetaCode/agency-orchestrator) · [superpowers-zh ⭐5.6k](https://github.com/jnMetaCode/superpowers-zh) · [ai-shortfilm-prompts](https://github.com/jnMetaCode/ai-shortfilm-prompts) · [ai-coding-trilogy](https://github.com/jnMetaCode/ai-coding-trilogy) · [ai-coding-guide ⭐405](https://github.com/jnMetaCode/ai-coding-guide)
-<!-- aiolaola:end -->
+# agency-agents 中文版（AI 智能體專家團隊）
 
 🌐 [簡體中文](README.md) | **繁體中文** | [English (upstream)](https://github.com/msitarzewski/agency-agents)
 
@@ -20,11 +10,14 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 
+
 ### 📊 專案規模
 
 | 🤖 AI 智能體 | 🌏 英文版翻譯 | 🇨🇳 中國市場原創 | 🧠 支援工具 | 🏢 部門 |
 |:---:|:---:|:---:|:---:|:---:|
 | **266** | **215** | **50** | **18 種** | **20 個** |
+
+> 📖 **免費配套學習** → [從零學會 AI 程式設計](https://aiolaola.com/?utm_source=github&utm_campaign=agents)：180 節免費實操課 + 《AI 程式設計實戰三卷書》線上閱讀 + 實戰社群 · 把這個倉的 216 個角色裝進 Claude Code / Cursor / Codex 後配合方法論更高效 · 永久免費
 
 ---
 
@@ -99,6 +92,22 @@
 <td width="75%" valign="middle">
 
 感謝 [CCSub](https://www.ccsub.net/register?ref=8G5W4JK4) 贊助本專案！CCSub 是穩定、實惠的 AI API 中轉平台，是 Claude Code 官方訂閱的超強平替。一個 API Key 即可調用 Claude Opus 4.8、Sonnet 4.6、Haiku 4.5、GPT-5、Gemini 全系列模型，價格約為官方直連的 1/3，全球直連無需翻牆。相容 Claude Code、Codex、Cursor、Cline、Continue、Windsurf 等所有主流 AI 編程工具。🎁 **前往 [www.ccsub.net](https://www.ccsub.net/register?ref=8G5W4JK4) 註冊即送 $5 體驗額度！**
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="25%">
+  <a href="https://www.volcengine.com/activity/ai618?utm_campaign=hw&utm_content=hw&utm_medium=devrel_tool_web&utm_source=OWO&utm_term=agency-agents-zh">
+    <img src="assets/sponsor-volcengine.jpeg" alt="火山引擎 — 豆包大模型限時 5 折起，程式設計模型套餐 2.5 折訂閱，支援 Kimi-K2.7、GLM-5.2 等主流模型" width="100%">
+  </a>
+</td>
+<td width="75%" valign="middle">
+
+感謝 [火山引擎](https://www.volcengine.com/activity/ai618?utm_campaign=hw&utm_content=hw&utm_medium=devrel_tool_web&utm_source=OWO&utm_term=agency-agents-zh) 贊助了本專案！火山引擎AI巔峰盛惠來襲！豆包大模型限時5折起，19元即可入手約440萬Tokens文本模型，新客首單再享AI統一節省計劃。從文本生成、圖像創作到視頻合成、語音複刻，全模態AI能力一站式配齊。開發者專屬編程模型套餐2.5折訂閱，支持Kimi-K2.7、GLM-5.2等主流模型。
+🎁 **註冊即領2500萬Tokens，立即訪問火山引擎活動頁面搶購。**
 
 </td>
 </tr>
