@@ -38,15 +38,15 @@
 <table>
 <tr>
 <td width="55%">
-  <a href="https://passport.compshare.cn/register?referral_code=ETD3L5JBM13CtKARkMORot&ytag=GPU_YY_YX_git_agency-agents">
-    <img src="assets/sponsor-compshare.jpeg" alt="优云智算 — 热门国产模型按次调用套餐包，低至 49 元/月起" width="100%">
+  <a href="https://duoyuanx.com/register?aff=LErO">
+    <img src="assets/sponsor-duoyuanx.jpeg" alt="多元探索 — 全球 AI 模型 API 聚合与源头直供平台，汇集 OpenAI、Claude、Gemini、DeepSeek 等数百款主流模型" width="100%">
   </a>
 </td>
 <td width="45%" valign="middle">
 
-感谢[优云智算](https://passport.compshare.cn/register?referral_code=ETD3L5JBM13CtKARkMORot&ytag=GPU_YY_YX_git_agency-agents)赞助了本项目！优云智算是UCloud旗下AI云平台，主打包月、按次的高性价比国模Agent Plan套餐,支持GLM5.2 低至49元/月起。同时提供官转稳定海外模型。支持接入 Claude Code、Codex 及 API 调用。支持企业高并发、7*24技术支持、自助开票。
+感谢[多元探索](https://duoyuanx.com/register?aff=LErO)赞助了本项目！多元探索专注全球AI模型API聚合与源头直供服务，已与多家头部科技企业建立合作，汇集OpenAI、Claude、Gemini、DeepSeek等数百款主流模型。平台构建统一、稳定、安全、高性价比的服务体系，实现一次接入、多模型调用，持续提升使用效率并优化算力成本；同时提供企业级解决方案、专业技术支持与快速客服响应，为每一次AI调用提供可靠保障。
 
-🎁 **通过[此链接](https://passport.compshare.cn/register?referral_code=ETD3L5JBM13CtKARkMORot&ytag=GPU_YY_YX_git_agency-agents)注册的用户，可得免费5元平台体验金！**
+🎁 **通过[专属链接](https://duoyuanx.com/register?aff=LErO)注册后立获3元免费测试额度，充值100元以上返现10%（找客服获取）！**
 
 </td>
 </tr>
@@ -108,6 +108,23 @@
 
 感谢 [火山引擎](https://www.volcengine.com/activity/ai618?utm_campaign=hw&utm_content=hw&utm_medium=devrel_tool_web&utm_source=OWO&utm_term=agency-agents-zh) 赞助了本项目！火山引擎AI巅峰盛惠来袭！豆包大模型限时5折起，19元即可入手约440万Tokens文本模型，新客首单再享AI统一节省计划。从文本生成、图像创作到视频合成、语音复刻，全模态AI能力一站式配齐。开发者专属编程模型套餐2.5折订阅，支持Kimi-K2.7、GLM-5.2等主流模型。
 🎁 **注册即领2500万Tokens，立即访问火山引擎活动页面抢购。**
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="55%">
+  <a href="https://passport.compshare.cn/register?referral_code=ETD3L5JBM13CtKARkMORot&ytag=GPU_YY_YX_git_agency-agents">
+    <img src="assets/sponsor-compshare.jpeg" alt="优云智算 — 热门国产模型按次调用套餐包，低至 49 元/月起" width="100%">
+  </a>
+</td>
+<td width="45%" valign="middle">
+
+感谢[优云智算](https://passport.compshare.cn/register?referral_code=ETD3L5JBM13CtKARkMORot&ytag=GPU_YY_YX_git_agency-agents)赞助了本项目！优云智算是UCloud旗下AI云平台，主打包月、按次的高性价比国模Agent Plan套餐,支持GLM5.2 低至49元/月起。同时提供官转稳定海外模型。支持接入 Claude Code、Codex 及 API 调用。支持企业高并发、7*24技术支持、自助开票。
+
+🎁 **通过[此链接](https://passport.compshare.cn/register?referral_code=ETD3L5JBM13CtKARkMORot&ytag=GPU_YY_YX_git_agency-agents)注册的用户，可得免费5元平台体验金！**
 
 </td>
 </tr>
