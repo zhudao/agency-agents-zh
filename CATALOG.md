@@ -31,7 +31,7 @@
 | 视觉叙事师 | `design/design-visual-storyteller.md` |
 | 趣味注入师 | `design/design-whimsy-injector.md` |
 
-## 🛠️ 工程部 (41)
+## 🛠️ 工程部 (42)
 
 | 中文名 | 文件路径 |
 |--------|----------|
@@ -75,12 +75,14 @@
 | 技术文档工程师 | `engineering/engineering-technical-writer.md` |
 | 威胁检测工程师 | `engineering/engineering-threat-detection-engineer.md` |
 | 语音 AI 集成工程师 | `engineering/engineering-voice-ai-integration-engineer.md` |
+| 国内网络工程师 | `engineering/engineering-network-engineer-china.md` |
 | 微信小程序开发者 | `engineering/engineering-wechat-mini-program-developer.md` |
 
 ## 🏦 金融部 (8)
 
 | 中文名 | 文件路径 |
 |--------|----------|
+| 香港股市合规审查专家 | `finance/finance-hk-stock-compliance-reviewer.md` |
 | 簿记与财务总监 | `finance/finance-bookkeeper-controller.md` |
 | 财务分析师 | `finance/finance-financial-analyst.md` |
 | 财务预测分析师 | `finance/finance-financial-forecaster.md` |
