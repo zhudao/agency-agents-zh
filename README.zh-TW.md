@@ -128,9 +128,22 @@
 </td>
 <td width="75%" valign="middle">
 
-感謝[優雲智算](https://passport.compshare.cn/register?referral_code=ETD3L5JBM13CtKARkMORot&ytag=GPU_YY_YX_git_agency-agents)贊助了本專案！優雲智算是 UCloud 旗下 AI 雲平台，主打包月、按次的高性價比國模 Agent Plan 套餐，低至 49 元/月起。同時提供官轉穩定海外模型。支持接入 Claude Code、Codex 及 API 調用。支持企業高併發、7*24 技術支持、自助開票。
+感謝[優雲智算](https://passport.compshare.cn/register?referral_code=ETD3L5JBM13CtKARkMORot&ytag=GPU_YY_YX_git_agency-agents)贊助了本專案！優雲智算是 UCloud 旗下 AI 雲平台，主打包月、按次的高性價比國模 Agent Plan 套餐，低至 49 元/月起。同時提供官轉穩定海外模型。支持接入 Claude Code、Codex 及 API 調用。支持企業高併發、7*24 技術支持、自助開票。🎁 **通過[此連結](https://passport.compshare.cn/register?referral_code=ETD3L5JBM13CtKARkMORot&ytag=GPU_YY_YX_git_agency-agents)註冊的用戶，可得免費 5 元平台體驗金！**
 
-🎁 **通過[此連結](https://passport.compshare.cn/register?referral_code=ETD3L5JBM13CtKARkMORot&ytag=GPU_YY_YX_git_agency-agents)註冊的用戶，可得免費 5 元平台體驗金！**
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="25%">
+  <a href="https://www.aicodemirror.ai/register?invitecode=XO5L7R">
+    <img src="assets/sponsor-aicodemirror.jpeg" alt="AICodeMirror — Claude / Codex / Gemini 官方高穩定中轉服務，Codex 官方渠道低至 0.7 折" width="100%">
+  </a>
+</td>
+<td width="75%" valign="middle">
+
+感謝 [AICodeMirror](https://www.aicodemirror.ai/register?invitecode=XO5L7R) 贊助了本專案！AICodeMirror 提供 Claude / Codex / Gemini 官方高穩定中轉服務，支持企業級高併發、極速開票、7×24 專屬技術支持。Codex 官方渠道低至 0.7 折，儲值更有折上折！🎁 **AICodeMirror 為 agency-agents-zh 專案的用戶提供了特別福利，通過[此連結](https://www.aicodemirror.ai/register?invitecode=XO5L7R)註冊的用戶，可享受首儲 8 折！**
 
 </td>
 </tr>
