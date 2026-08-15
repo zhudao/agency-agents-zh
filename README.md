@@ -99,7 +99,7 @@
 <td width="75%" valign="middle">
 
 感谢 [火山引擎](https://www.volcengine.com/activity/ai618?utm_campaign=hw&utm_content=hw&utm_medium=devrel_tool_web&utm_source=OWO&utm_term=agency-agents-zh) 赞助了本项目！火山引擎AI巅峰盛惠来袭！豆包大模型限时5折起，19元即可入手约440万Tokens文本模型，新客首单再享AI统一节省计划。从文本生成、图像创作到视频合成、语音复刻，全模态AI能力一站式配齐。开发者专属编程模型套餐2.5折订阅，支持Kimi-K2.7、GLM-5.2等主流模型。
-🎁 **注册即领2500万Tokens，立即访问火山引擎活动页面抢购。**
+🎁 **[注册](https://www.volcengine.com/activity/ai618?utm_campaign=hw&utm_content=hw&utm_medium=devrel_tool_web&utm_source=OWO&utm_term=agency-agents-zh)即领2500万Tokens，立即访问[火山引擎活动页面](https://www.volcengine.com/activity/ai618?utm_campaign=hw&utm_content=hw&utm_medium=devrel_tool_web&utm_source=OWO&utm_term=agency-agents-zh)抢购。**
 
 </td>
 </tr>
@@ -130,6 +130,21 @@
 <td width="75%" valign="middle">
 
 感谢 [LanoX AI](https://lanox.ai/?c=X3RD38F7&inviteCode=A3HRUB6M) 赞助了本项目！LanoX AI 为开发者、团队与企业提供稳定、高性价比的全球模型接入服务，覆盖 GPT、Claude、Gemini、Qwen、Grok 等主流模型，以及 Seedance 2.0、GPT Image、Gemini Nano Banana 等多模态创作能力。高可用、原生能力输出、不降智、不混模、调用与计费透明，顶级模型低至官方价 1 折起，文档清晰、接入简单，支持开票与企业批量调用，适用于 AI 产品、Agent、内容平台与研发团队。🎁 **通过[此链接](https://lanox.ai/?c=X3RD38F7&inviteCode=A3HRUB6M)注册的用户，可获赠 5 美金体验额度与百万免费 Token，另有 500+ 免费模型可用！**
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="25%">
+  <a href="https://www.shengsuanyun.com/?from=CH_QKH696UI">
+    <img src="assets/sponsor-shengsuanyun.jpeg" alt="胜算云 — 面向 AI 原生团队的模型 API 聚合平台，汇集 Claude / ChatGPT / Gemini 等海内外大模型，提供企业级定制网关" width="100%">
+  </a>
+</td>
+<td width="75%" valign="middle">
+
+感谢[胜算云](https://www.shengsuanyun.com/?from=CH_QKH696UI)对本项目的赞助！胜算云是面向 AI 原生团队的模型 API 聚合平台，汇集 Claude、ChatGPT、Gemini 等海内外大语言模型及多媒体模型，支持统一接入与按量调用。平台坚持合规 API 服务，杜绝逆向工程和资源稀释。此外平台提供企业级定制网关，包括团队成本与权限管理、智能路由、安全防护及 BYOK 密钥托管，并提供发票服务。🎁 **新用户通过[此链接](https://www.shengsuanyun.com/?from=CH_QKH696UI)注册，即可领取 5 元 Token 体验额度！**
 
 </td>
 </tr>

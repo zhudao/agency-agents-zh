@@ -98,7 +98,7 @@
 <td width="75%" valign="middle">
 
 感謝 [火山引擎](https://www.volcengine.com/activity/ai618?utm_campaign=hw&utm_content=hw&utm_medium=devrel_tool_web&utm_source=OWO&utm_term=agency-agents-zh) 贊助了本專案！火山引擎AI巔峰盛惠來襲！豆包大模型限時5折起，19元即可入手約440萬Tokens文本模型，新客首單再享AI統一節省計劃。從文本生成、圖像創作到視頻合成、語音複刻，全模態AI能力一站式配齊。開發者專屬編程模型套餐2.5折訂閱，支持Kimi-K2.7、GLM-5.2等主流模型。
-🎁 **註冊即領2500萬Tokens，立即訪問火山引擎活動頁面搶購。**
+🎁 **[註冊](https://www.volcengine.com/activity/ai618?utm_campaign=hw&utm_content=hw&utm_medium=devrel_tool_web&utm_source=OWO&utm_term=agency-agents-zh)即領2500萬Tokens，立即訪問[火山引擎活動頁面](https://www.volcengine.com/activity/ai618?utm_campaign=hw&utm_content=hw&utm_medium=devrel_tool_web&utm_source=OWO&utm_term=agency-agents-zh)搶購。**
 
 </td>
 </tr>
@@ -129,6 +129,21 @@
 <td width="75%" valign="middle">
 
 感謝 [LanoX AI](https://lanox.ai/?c=X3RD38F7&inviteCode=A3HRUB6M) 贊助了本專案！LanoX AI 為開發者、團隊與企業提供穩定、高性價比的全球模型接入服務，涵蓋 GPT、Claude、Gemini、Qwen、Grok 等主流模型，以及 Seedance 2.0、GPT Image、Gemini Nano Banana 等多模態創作能力。高可用、原生能力輸出、不降智、不混模、調用與計費透明，頂級模型低至官方價 1 折起，文檔清晰、接入簡單，支援開票與企業批量調用，適用於 AI 產品、Agent、內容平台與研發團隊。🎁 **通過[此連結](https://lanox.ai/?c=X3RD38F7&inviteCode=A3HRUB6M)註冊的用戶，可獲贈 5 美金體驗額度與百萬免費 Token，另有 500+ 免費模型可用！**
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="25%">
+  <a href="https://www.shengsuanyun.com/?from=CH_QKH696UI">
+    <img src="assets/sponsor-shengsuanyun.jpeg" alt="勝算雲 — 面向 AI 原生團隊的模型 API 聚合平台，匯集 Claude / ChatGPT / Gemini 等海內外大模型，提供企業級定制網關" width="100%">
+  </a>
+</td>
+<td width="75%" valign="middle">
+
+感謝[勝算雲](https://www.shengsuanyun.com/?from=CH_QKH696UI)對本專案的贊助！勝算雲是面向 AI 原生團隊的模型 API 聚合平台，匯集 Claude、ChatGPT、Gemini 等海內外大語言模型及多媒體模型，支援統一接入與按量調用。平台堅持合規 API 服務，杜絕逆向工程與資源稀釋。此外平台提供企業級定制網關，包括團隊成本與權限管理、智能路由、安全防護及 BYOK 金鑰託管，並提供發票服務。🎁 **新用戶通過[此連結](https://www.shengsuanyun.com/?from=CH_QKH696UI)註冊，即可領取 5 元 Token 體驗額度！**
 
 </td>
 </tr>
