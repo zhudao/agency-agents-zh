@@ -11,7 +11,7 @@
 翻译的时候注意：
 - 不要逐字翻译，用自然的中文表达
 - 代码示例里的注释也要翻译
-- 保持 frontmatter 格式不变（name、description、color）
+- 保留角色元数据，并按本库格式包含 `name`、`description`、`color`、`emoji`
 
 ### 2. 创建中国市场原创智能体
 
@@ -28,6 +28,7 @@
 name: 智能体名称
 description: 一句话描述这个智能体干什么
 color: 颜色名称
+emoji: 🤖
 ---
 
 # 智能体名称
@@ -106,6 +107,15 @@ PR 标题写"docs: 补充说明"但实际改动是引入外链、提及自家产
 2. 创建分支：`git checkout -b add-xxx-agent`
 3. 写好内容，本地检查一遍格式
 4. 提交 PR，简单说明做了什么
+
+### 本地验证与 PR 说明
+
+- 执行 `npm run check:counts` 检查目录、条目、计数和代码块结构。
+- 修改角色时执行 `bash scripts/lint-agents.sh 路径/角色.md`，检查实际变更的文件。
+- 修改已有回归覆盖的示例时，按 [测试说明](scripts/tests/README.md) 准备 Python 环境，再执行 `npm run test:examples`。
+- 涉及包内容时执行 `npm run check:package`，它在临时目录打包并安装，核对角色正文，不会发布 npm。
+- 新增、删除、迁移角色时，同步简繁 README、AGENT-LIST、CATALOG 和包描述中的相关条目与计数；上游同步注明固定 commit。
+- 在 PR 中记录实际执行的命令、结果及验证范围。没有执行的服务、平台或测试注明原因，不要以“已测试”替代证据。
 
 ## 几个约定
 

@@ -4,17 +4,22 @@ on:
   pull_request:
     paths:
       - 'academic/**'
+      - 'company/**'
       - 'design/**'
       - 'engineering/**'
       - 'finance/**'
       - 'game-development/**'
+      - 'gis/**'
+      - 'healthcare/**'
       - 'hr/**'
       - 'legal/**'
       - 'marketing/**'
       - 'paid-media/**'
       - 'product/**'
       - 'project-management/**'
+      - 'research/**'
       - 'sales/**'
+      - 'security/**'
       - 'spatial-computing/**'
       - 'specialized/**'
       - 'strategy/**'
@@ -35,10 +40,10 @@ jobs:
         id: changed
         run: |
           FILES=$(git diff --name-only --diff-filter=ACMR origin/${{ github.base_ref }}...HEAD -- \
-            'academic/**/*.md' 'design/**/*.md' 'engineering/**/*.md' 'finance/**/*.md' \
-            'game-development/**/*.md' 'hr/**/*.md' 'legal/**/*.md' 'marketing/**/*.md' \
-            'paid-media/**/*.md' 'product/**/*.md' 'project-management/**/*.md' 'sales/**/*.md' \
-            'spatial-computing/**/*.md' 'specialized/**/*.md' 'strategy/**/*.md' \
+            'academic/**/*.md' 'company/**/*.md' 'design/**/*.md' 'engineering/**/*.md' 'finance/**/*.md' \
+            'game-development/**/*.md' 'gis/**/*.md' 'healthcare/**/*.md' 'hr/**/*.md' 'legal/**/*.md' 'marketing/**/*.md' \
+            'paid-media/**/*.md' 'product/**/*.md' 'project-management/**/*.md' 'research/**/*.md' 'sales/**/*.md' \
+            'security/**/*.md' 'spatial-computing/**/*.md' 'specialized/**/*.md' 'strategy/**/*.md' \
             'supply-chain/**/*.md' 'support/**/*.md' 'testing/**/*.md')
           {
             echo "files<<ENDOFLIST"

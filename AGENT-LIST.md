@@ -1,6 +1,6 @@
 # Agency Agents 智能体完整名单
 
-> 本文档最后更新于 2026-07-20，记录项目中所有 268 个 AI 智能体的完整信息。
+> 本文档最后更新于 2026-10-17，记录项目中所有 328 个 AI 智能体的完整信息。
 
 ---
 
@@ -11,25 +11,42 @@
 │                    Agency Agents 中文版                           │
 │                  AI 智能体专家团队                                │
 ├─────────────────────────────────────────────────────────────────┤
-│  项目规模                                                        │
-│  ├── AI 智能体：268 个                                          │
-│  ├── 英文版翻译：215 个                                         │
-│  ├── 中国市场原创：53 个                                        │
-│  └── 支持工具：18 种                                            │
+│  项目规模                                                       │
+│  ├── AI 智能体：328 个                                          │
+│  ├── 英文版翻译：261 个                                         │
+│  ├── 中国市场原创：67 个                                        │
+│  └── 支持工具：20 种                                            │
 ├─────────────────────────────────────────────────────────────────┤
-│  部门分类：19 个                                                 │
-│  ├── 工程部 (42)         设计部 (9)                             │
-│  ├── 营销部 (42)         付费媒体部 (7)                          │
-│  ├── 销售部 (9)          金融部 (9)                              │
-│  ├── 人力资源部 (2)      法务部 (2)                              │
-│  ├── 供应链部 (5)        产品部 (5)                              │
-│  ├── 项目管理部 (7)      测试部 (9)                              │
-│  ├── 支持部 (7)          专项部 (58)                             │
-│  ├── 空间计算部 (6)      游戏开发部 (20)                         │
-│  ├── 学术部 (6)          GIS 部 (13)                            │
-│  └── 安全部 (10)                                                 │
+│  部门分类：22 个                                                │
+│  ├── 公司经营部 (7)        工程部 (75)                          │
+│  ├── 设计部 (11)           营销部 (44)                          │
+│  ├── 付费媒体部 (7)        销售部 (9)                           │
+│  ├── 金融部 (9)            人力资源部 (2)                       │
+│  ├── 法务部 (2)            供应链部 (5)                         │
+│  ├── 产品部 (6)            项目管理部 (7)                       │
+│  ├── 测试部 (10)           支持部 (7)                           │
+│  ├── 专项部 (64)           空间计算部 (6)                       │
+│  ├── 游戏开发部 (21)       学术部 (7)                           │
+│  ├── GIS 部 (13)           安全部 (12)                          │
+│  └── 研究部 (1)            医疗健康部 (3)                       │
 └─────────────────────────────────────────────────────────────────┘
 ```
+
+---
+
+## 公司经营部 (Company)
+
+一个人的公司也有高管层——定方向、做取舍、对结果负责。
+
+| Agent ID | 中文名 | 描述 | 来源 |
+|----------|--------|------|------|
+| `chief-executive-officer` | 首席执行官 | 企业最高决策者，掌管战略方向、资源配置、组织节奏与对外叙事——可逆性分级决策，把愿景翻译成组织能执行的优先级 | 原创 |
+| `chief-technology-officer` | 首席技术官 | 技术最高负责人，掌管技术路线、架构决策、研发组织与技术债务——在业务速度与工程质量间做显式权衡 | 原创 |
+| `chief-product-officer` | 首席产品官 | 产品最高负责人，掌管产品战略、路线图取舍与产品组织——用用户价值与商业价值的交集裁决需求之争 | 原创 |
+| `chief-marketing-officer` | 首席营销官 | 增长与品牌最高负责人，掌管定位、渠道组合、营销预算与品牌资产——用可归因的数字管增长，用耐心管品牌 | 原创 |
+| `chief-operating-officer` | 首席运营官 | 运营最高负责人，把战略翻译成流程、指标与执行节奏——消灭组织摩擦与例外，让正确的事默认发生 | 原创 |
+| `chief-financial-officer` | 首席财务官 | 战略财务高管，掌管资本配置、资金运营、财务规划、并购财务、投资者关系与董事会汇报——把财务复杂性转化为清晰决策 | 翻译 |
+| `chief-of-staff` | 幕僚长 | 战略运营与跨部门协调专家，会议管理、OKR 追踪、高管沟通和组织变革推进 | 翻译 |
 
 ---
 
@@ -56,12 +73,45 @@
 | `engineering-data-engineer` | 数据工程师 | 专注于构建可靠数据管线、湖仓架构和可扩展数据基础设施的数据工程专家 | 翻译 |
 | `engineering-technical-writer` | 技术文档工程师 | 专精于开发者文档、API 参考、README 和教程的技术写作专家 | 翻译 |
 | `engineering-autonomous-optimization-architect` | 自主优化架构师 | 智能系统治理专家，持续对 API 进行影子测试以优化性能，同时严格执行财务和安全护栏 | 翻译 |
+| `engineering-desktop-app-engineer` | 桌面应用工程师 | Electron/Tauri 桌面应用专家，负责安全 IPC、签名公证、自动更新与资源占用控制 | 翻译 |
+| `engineering-api-platform-engineer` | API 平台工程师 | 契约优先 API 设计、版本与弃用、SDK 生成、网关限流与开发者门户 | 翻译 |
+| `engineering-database-reliability-engineer` | 数据库可靠性工程师 | 高可用与故障切换、备份与时间点恢复、零停机表结构迁移与灾备演练 | 翻译 |
+| `engineering-platform-engineer` | 平台工程师 | 内部开发者平台（IDP），黄金路径、自助式基础设施与开发者体验度量 | 翻译 |
+| `engineering-developer-tooling-engineer` | 开发者工具工程师 | CLI 与内部开发工具，命令设计、可操作的错误信息、快速启动与跨平台分发 | 翻译 |
+| `engineering-finops-engineer` | FinOps 工程师 | 云成本分摊与标签、规格调整、承诺折扣规划、出网与存储优化、单位经济学 | 翻译 |
+| `engineering-privacy-engineer` | 隐私工程师 | 个人信息发现与分类、数据最小化、同意执行、自动化 DSAR 与跨服务删除 | 翻译 |
+| `engineering-i18n-engineer` | 国际化工程师 | ICU MessageFormat、CLDR 复数规则、RTL 布局、区域设置格式化与伪本地化测试 | 翻译 |
+| `engineering-knowledge-graph-engineer` | 知识图谱工程师 | 实体-关系建模、Neo4j/LangGraph 摄入管线、来源追溯与矛盾检测、图增强 RAG | 翻译 |
+| `engineering-search-relevance-engineer` | 搜索相关性工程师 | Elasticsearch/OpenSearch 分析器与查询调优、混合检索、基于标注集的 nDCG 评估 | 翻译 |
+| `engineering-llm-post-training-engineer` | LLM 后训练工程师 | SFT、偏好优化、RLHF/RLVR、MoE 后训练，以及检查点完整性与发布关卡 | 翻译 |
+| `engineering-realtime-collaboration-engineer` | 实时协作工程师 | WebSocket/SSE、在线状态、CRDT/OT 协同编辑、离线优先同步与扇出扩展 | 翻译 |
+| `engineering-webassembly-engineer` | WebAssembly 工程师 | Rust/C++/Go 编译为 Wasm、JS 边界编组、WASI 与服务端运行时、组件模型 | 翻译 |
+| `engineering-video-streaming-engineer` | 视频流媒体工程师 | HLS/DASH 封装、ffmpeg 转码阶梯、CMAF 低延迟、DRM、CDN 分发与观看体验调优 | 翻译 |
+| `engineering-mobile-release-engineer` | 移动端发布工程师 | iOS/Android 代码签名、fastlane 流水线、商店提审、分阶段发布与崩溃分诊 | 翻译 |
+| `engineering-data-visualization-engineer` | 数据可视化工程师 | 按问题选图、感知诚实的编码、色盲安全配色、无障碍交互与大数据量渲染 | 翻译 |
+| `engineering-iot-fleet-engineer` | IoT 设备群工程师 | 设备预配与身份、MQTT 遥测管线、A/B 分区分阶段 OTA 与回滚、设备群可观测性 | 翻译 |
+| `engineering-rust-refactoring-specialist` | Rust 重构专家 | 仓库级重构、安全重命名、模块重组、panic 加固、所有权改进与 Clippy 修复 | 翻译 |
+| `engineering-pdf-engine-architect` | PDF 引擎架构师 | 确定性 HTML 转 PDF、Playwright 上下文池、动态页面尺寸、带标签 PDF/UA 与 PDF/A | 翻译 |
+| `engineering-universal-document-compiler` | 通用文档编译器 | 与 schema 无关的文档 AST、按数据形态推断布局、代码与画布双向同步、确定性分页 | 翻译 |
+| `engineering-ats-validator-architect` | ATS 校验架构师 | 简历可解析性审计、BM25 关键词匹配、X-Y-Z 量化要点评分、招聘算法合规 | 翻译 |
+| `engineering-network-engineer` | 网络工程师 | Cisco IOS/ASA、Juniper Junos、Palo Alto PAN-OS 的路由、交换、防火墙配置与排障 | 翻译 |
+| `engineering-gaussdb-expert` | GaussDB 专家 | 华为 GaussDB OLTP 的分布键与分布表设计、UStore/AStore、分布式执行计划与金融级高可用 | 翻译 |
+| `engineering-drupal-performance` | Drupal 性能工程师 | Drupal 10/11 的缓存标签与上下文、BigPipe、Views 与查询优化、Core Web Vitals 与 PHP-FPM 调优 | 翻译 |
+| `engineering-wordpress-performance` | WordPress 性能工程师 | Core Web Vitals、对象/页面缓存、WP_Query 与 autoload 优化、插件开销审计与 PHP-FPM 调优 | 翻译 |
+| `engineering-section-508-specialist` | Section 508 无障碍专家 | 美国联邦 Section 508（WCAG 2.0 AA 法定基线）与 ADA 合规、屏幕阅读器与键盘测试、ARIA 整改与 VPAT/ACR | 翻译 |
+| `engineering-servicenow-developer-mentor` | ServiceNow 开发导师 | ServiceNow 脚本开发与逐步排障：Script Include/GlideAjax、GlideAggregate、ACL、区分 OOTB 与自定义 | 翻译 |
+| `engineering-uswds-developer` | USWDS 开发工程师 | 美国政府网站设计系统：设计令牌主题化、官方组件、.gov 横幅与机构标识、Drupal/WordPress 集成 | 翻译 |
+| `engineering-rag-pipeline-engineer` | RAG 管线工程师 | 文档切分、混合检索、重排与检索质量评测 | 翻译 |
+| `engineering-identity-access-engineer` | 身份与访问工程师 | OAuth/OIDC、SSO、SCIM、会话与多租户授权 | 翻译 |
+| `engineering-payments-billing-engineer` | 支付与计费工程师 | 幂等支付、可靠回调、订阅计费与对账 | 翻译 |
+| `engineering-embedded-algorithm-engineer` | 嵌入式算法工程师 | MCU/DSP 算法落地，数字信号处理、传感器融合、定点化与 TinyML 板端验证 | 原创 |
+| `engineering-embedded-application-engineer` | 嵌入式应用工程师 | RTOS/Linux 设备应用，业务状态机、任务通信、协议、配置与升级恢复 | 原创 |
 | `engineering-embedded-firmware-engineer` | 嵌入式固件工程师 | 裸机和 RTOS 固件开发专家——精通 ESP32/ESP-IDF、PlatformIO、ARM Cortex-M、STM32 | 翻译 |
 | `engineering-embedded-linux-driver-engineer` | 嵌入式 Linux 驱动工程师 | 嵌入式 Linux 内核驱动与 BSP 开发专家——精通 Linux 内核模块、设备树、Platform/I2C/SPI/USB 驱动 | 原创 |
 | `engineering-fpga-digital-design-engineer` | FPGA/ASIC 数字设计工程师 | FPGA 与 ASIC 数字前端设计专家——精通 Verilog/SystemVerilog、Vivado/Quartus、AXI/AHB 总线 | 原创 |
 | `engineering-iot-solution-architect` | IoT 方案架构师 | 物联网端到端方案设计专家——精通设备接入、边缘计算、云平台、OTA、设备管理、数据管道 | 原创 |
 | `engineering-incident-response-commander` | 故障响应指挥官 | 专精于生产环境故障管理、结构化响应协调、事后复盘、SLO/SLI 跟踪和 on-call 流程设计 | 翻译 |
-| `engineering-threat-detection-engineer` | 威胁检测工程师 | 专精于 SIEM 规则开发、MITRE ATT&CK 覆盖度映射、威胁狩猎、告警调优和检测即代码流水线 | 翻译 |
+| `engineering-threat-detection-engineer` | 威胁检测工程师（工程侧） | 专精于 SIEM 规则开发、MITRE ATT&CK 覆盖度映射、威胁狩猎、告警调优和检测即代码流水线 | 翻译 |
 | `engineering-solidity-smart-contract-engineer` | Solidity 智能合约工程师 | 精通 EVM 智能合约架构、Gas 优化、可升级代理模式、DeFi 协议开发和安全优先合约设计 | 翻译 |
 | `engineering-network-engineer-china` | 国内网络工程师 | 面向国产网络设备的企业网工程专家——精通华为 VRP、华三 Comware、锐捷 RGOS，覆盖园区网/数据中心/广域网的 VLAN、STP、OSPF、BGP、VXLAN 设计与排障，熟悉信创国产化替代与等保 2.0 合规组网 | 原创 |
 | `engineering-wechat-mini-program-developer` | 微信小程序开发者 | 专注微信小程序全栈开发的工程专家，精通 WXML/WXSS/WXS、微信原生API、微信支付集成 | 原创 |
@@ -96,8 +146,10 @@
 | `design-ux-architect` | UX 架构师 | 技术架构与 UX 专家，给开发者提供扎实的基础设施——CSS 体系、布局框架、清晰的实现指引 | 翻译 |
 | `design-brand-guardian` | 品牌守护者 | 专精品牌形象开发、一致性维护和战略品牌定位的品牌策略师和品牌守护专家 | 翻译 |
 | `design-image-prompt-engineer` | 图像提示词工程师 | 精通摄影美学和 AI 图像生成的提示词专家，擅长把视觉概念转化为精准的文字描述 | 翻译 |
+| `design-video-prompt-engineer` | 视频提示词工程师 | 文生视频提示词专家，用 5 段式结构把一句创意写成可直接投喂 Sora / 可灵 / Veo / Seedance 的电影感提示词，含运镜、瑕疵、声音与负面提示词，并对成本负责 | 原创 |
 | `design-visual-storyteller` | 视觉叙事师 | 视觉传达专家，擅长把复杂信息转化成有吸引力的视觉故事，通过多媒体内容和品牌叙事打动受众 | 翻译 |
 | `design-whimsy-injector` | 趣味注入师 | 创意专家，专门给品牌体验注入个性、惊喜和趣味元素，用意想不到的小细节让用户记住你的产品 | 翻译 |
+| `design-ui-finish-gate-reviewer` | UI 收尾审查员 | 上线前的产品界面审查，用设计契约和通过/暂缓关卡拦下千篇一律的界面 | 翻译 |
 | `design-inclusive-visuals-specialist` | 包容性视觉专家 | 专注于消除 AI 生成图像中的系统性偏见，确保生成的人物图像在文化、肤色、体型等方面真实、有尊严 | 翻译 |
 
 ---
@@ -151,17 +203,19 @@
 | Agent ID | 中文名 | 描述 | 来源 |
 |----------|--------|------|------|
 | `marketing-growth-hacker` | 增长黑客 | 数据驱动的用户增长专家，擅长设计和执行低成本高回报的获客实验 | 翻译 |
-| `marketing-aeo-foundations` | AEO 基础架构师 | AI 引擎优化基础设施专家——落地 llms.txt、AI 感知 robots.txt、token 预算化内容、结构化 Markdown 与 agent 发现文件，让 AI 爬虫/引用引擎/浏览型 agent 能找到并执行你的内容 | 翻译 |
+| `marketing-aeo-foundations` | AEO 基础架构师 | AI 搜索与答案引擎基础设施专家——审计检索爬虫访问、robots.txt、索引与 noindex、WAF/CDN、渲染与内容可访问性、日志与可选的机器可读发现资产 | 翻译 |
 | `marketing-email-strategist` | 邮件营销策略师 | 资深邮件营销策略师，专注 CRM 驱动活动、生命周期自动化、分群与可送达性，设计欢迎/培育/挽回等序列，适配后 Apple MPP 时代的衡量体系 | 翻译 |
 | `marketing-pr-communications-manager` | PR 与传播经理 | 战略性公关与传播专家，负责媒体关系、新闻稿、危机传播、高管思想领导力、品牌声誉与整合传播规划，通过赢得式媒体与叙事掌控建立并守护声誉 | 翻译 |
 | `marketing-content-creator` | 内容创作者 | 擅长多平台内容策划与创作的内容专家，能在不同渠道用不同语言讲同一个好故事 | 翻译 |
 | `marketing-social-media-strategist` | 社交媒体策略师 | 跨平台社交媒体策略专家，专注 LinkedIn、Twitter 等职业社交平台的品牌建设 | 翻译 |
-| `marketing-seo-specialist` | SEO专家 | 搜索引擎优化策略师，精通技术 SEO、内容优化、外链权重建设和自然搜索增长 | 翻译 |
+| `marketing-seo-specialist` | SEO 与自然搜索增长专家 | 数据驱动的 SEO 与 Organic Growth 策略师，负责技术 SEO、搜索需求与意图、内容架构、站点权威、Google 搜索可见性与收入归因 | 翻译 |
 | `marketing-carousel-growth-engine` | 轮播图增长引擎 | 自动化短视频轮播图生成专家，通过 Gemini 生成病毒式轮播图并自动发布 | 翻译 |
 | `marketing-linkedin-content-creator` | LinkedIn 内容创作专家 | 专注于 LinkedIn 个人品牌打造和专业内容创作的策略师 | 翻译 |
 | `marketing-book-co-author` | 图书联合作者 | 为创始人、专家和实操者提供战略性思想领袖力图书协作 | 翻译 |
 | `marketing-agentic-search-optimizer` | 智能搜索优化师 | WebMCP 就绪度和智能体任务完成率专家，审计 AI 代理能否在你的网站上完成预订、购买等任务 | 翻译 |
-| `marketing-ai-citation-strategist` | AI 引文策略师 | AI 推荐引擎优化（AEO/GEO）专家，审计品牌在 ChatGPT、Claude、Gemini 等平台的可见性 | 翻译 |
+| `marketing-ai-citation-strategist` | AI 搜索可见性与 GEO 策略师 | 面向 ChatGPT、Claude、Google AI 功能、Perplexity 等生成式搜索系统的 GEO 策略师，负责提示词审计、品牌提及与推荐、引用来源、实体清晰度与 AI 流量归因 | 翻译 |
+| `marketing-developer-community-builder` | 开发者社区建设专家 | 开发者社区架构、成员激活、贡献者计划、社区健康度监控与冲突应对 | 翻译 |
+| `marketing-search-growth-orchestrator` | 搜索增长编排器 | 统一编排 AEO 基础架构师、SEO 与自然搜索增长专家、AI 搜索可见性与 GEO 策略师及智能搜索优化师，负责路由、去重、依赖管理与业务优先级 | 原创 |
 
 ---
 
@@ -210,7 +264,7 @@
 | `finance-financial-forecaster` | 财务预测分析师 | 专注企业财务预测与场景建模的分析专家，精通收入预测、现金流管理、烧钱率分析 | 原创 |
 | `finance-fpa-analyst` | FP&A 分析师 | 财务规划与分析专家，精通预算编制、滚动预测、差异分析和经营绩效报告 | 翻译 |
 | `finance-fraud-detector` | 金融风控分析师 | 专注交易欺诈检测与金融风险防控的分析专家，精通支付宝/微信支付/银联渠道的风控策略 | 原创 |
-| `finance-hk-stock-compliance-reviewer` | 香港股市合规审查专家 | 香港股市合规审查专家，精通HKEX上市规则、SFC监管条例及关联交易合规 | 中国市场原创 |
+| `finance-hk-stock-compliance-reviewer` | 香港股市合规审查专家 | 香港股市合规审查专家，精通HKEX上市规则、SFC监管条例及关联交易合规 | 原创 |
 | `finance-investment-researcher` | 投资研究员 | 投资研究与尽职调查专家，精通行业分析、公司估值、投资论文撰写和风险评估 | 翻译 |
 | `finance-invoice-manager` | 发票管理专家 | 专注中国企业发票全生命周期管理的财税专家，精通增值税发票管理、金税系统操作 | 原创 |
 | `finance-tax-strategist` | 税务策略师 | 全面的税务规划与合规专家，精通企业税务筹划、跨境税务结构和税收优惠政策 | 翻译 |
@@ -264,6 +318,7 @@
 | `product-feedback-synthesizer` | 反馈分析师 | 专注用户反馈收集、分类和洞察提炼的产品分析专家 | 翻译 |
 | `product-behavioral-nudge-engine` | 行为助推引擎 | 行为心理学专家，通过调整软件交互节奏和风格，最大化用户动力和成功率 | 翻译 |
 | `product-manager` | 产品经理 | 全局型产品负责人，掌控产品全生命周期——从需求发现、战略规划到路线图制定 | 翻译 |
+| `product-dx-engineer` | DX 工程师 | 缩短开发者首次成功时间：SDK 与示例设计、上手流程审计、错误信息改写、DX 反馈闭环 | 翻译 |
 
 ---
 
@@ -297,6 +352,7 @@
 | `testing-test-results-analyzer` | 测试结果分析师 | 专注测试结果评估和质量度量分析的测试分析专家 | 翻译 |
 | `testing-tool-evaluator` | 工具评估师 | 专注工具评测和选型的技术评估专家，通过全面的功能对比、性能测试和成本分析 | 翻译 |
 | `testing-workflow-optimizer` | 工作流优化师 | 专注流程分析和优化的效率专家，通过消除瓶颈、精简流程和引入自动化 | 翻译 |
+| `testing-test-automation-engineer` | 测试自动化工程师 | Playwright/Cypress、数据隔离、CI 与失败诊断 | 翻译 |
 | `testing-embedded-qa-engineer` | 嵌入式测试工程师 | 嵌入式系统质量保障专家——精通硬件在环测试、固件自动化测试、OTA 回归、EMC/ESD 测试 | 原创 |
 
 ---
@@ -325,7 +381,8 @@
 |----------|--------|------|------|
 | `business-strategist` | 商业战略家 | 资深管理咨询专家，专注竞争分析、市场进入策略、商业模式设计、增长规划与战略决策——把复杂市场动态转化为可落地、能创造可持续竞争优势的战略 | 翻译 |
 | `change-management-consultant` | 变革管理顾问 | 资深变革管理专家，运用 ADKAR、Kotter、Prosci 框架引导组织完成技术落地、重构、文化转型与并购整合——管理阻力、推动接纳、确保变革长久落地 | 翻译 |
-| `chief-financial-officer` | 首席财务官 | 战略财务高管，掌管资本配置、资金运营、财务规划、并购财务、投资者关系与董事会汇报——把财务复杂性转化为清晰决策 | 翻译 |
+| `authenticity-appraiser` | 鉴定评估师 | 二手与收藏品鉴定评估专家——真伪要点讲解、行情估值框架与交易避坑，明确线上鉴定的能力边界 | 原创 |
+| `travel-planner` | 旅行规划师 | 面向中国旅行者的行程规划专家——逐日可执行行程、交通住宿组合、签证与预算控制、旺季避坑 | 原创 |
 | `customer-success-manager` | 客户成功经理 | 战略型客户成功专家，负责 onboarding、health scoring、QBR、churn 防控、扩张识别与续约——驱动 net revenue retention（净收入留存） | 翻译 |
 | `data-privacy-officer` | 数据隐私官 | 企业数据隐私专家与 DPO，构建 GDPR、CCPA 及全球隐私合规体系——数据测绘、隐私影响评估、同意管理、泄露响应、供应商尽调与监管沟通 | 翻译 |
 | `esg-sustainability-officer` | ESG 与可持续发展官 | 企业可持续发展战略专家与 ESG 信息披露专员，搭建环境、社会、治理项目，管理披露，推动 decarbonization（脱碳），对齐利益相关方与监管预期 | 翻译 |
@@ -355,6 +412,12 @@
 | `government-digital-presales-consultant` | 政务数字化售前顾问 | 面向中国政务市场的数字化项目售前专家 | 原创 |
 | `corporate-training-designer` | 企业培训课程设计师 | 专注企业培训体系搭建与课程开发的专家 | 原创 |
 | `specialized-mcp-builder` | MCP 构建器 | Model Context Protocol 开发专家，设计、构建和测试 MCP 服务器 | 翻译 |
+| `resume-tailor` | 简历定制师 | 站在求职者一侧，按职位描述定制简历、属实的 ATS 关键词匹配、成就化改写要点，绝不捏造资质 | 翻译 |
+| `specialized-master-plan-architect` | 总体规划架构师 | 零代码执行的架构规划：概念精讲、红队风险批判、五段式 Markdown 实施计划与回滚策略 | 翻译 |
+| `specialized-codebase-archaeologist` | 代码库考古专家 | 审计被多个 AI 编程工具改动过的代码库：回退顺序颠倒、重复实现、单位不一致、文档与代码偏离 | 翻译 |
+| `specialized-focus-music-architect` | 专注音乐架构师 | 为深度专注设计器乐声景：按任务选 BPM 与风格、零人声的 Suno/Udio 提示词、双耳节拍 | 翻译 |
+| `healthcare-aging-parent-care-companion` | 年迈父母照护助手 | 家庭照护者的照护协调：用药与续药、就诊安排、该告诉照护团队谁什么、紧急情况识别与照护者倦怠关怀 | 翻译 |
+| `specialized-fedramp-rmf-compliance` | FedRAMP 与 RMF 合规工程师 | 美国联邦云授权：FIPS 199 分级、授权边界、NIST 800-53 控制与 SSP、POA&M、Rev5 与 20x 路径、持续监控 | 翻译 |
 | `specialized-document-generator` | 文档生成器 | 专业文档创建专家，通过代码化方式生成专业的 PDF、PPTX、DOCX 和 XLSX 文件 | 翻译 |
 | `specialized-workflow-architect` | 工作流架构师 | 工作流设计专家，为每个系统、用户旅程和智能体交互绘制完整的工作流树 | 翻译 |
 | `automation-governance-architect` | 自动化治理架构师 | 以治理为先的业务自动化架构师（n8n 优先） | 翻译 |
@@ -365,11 +428,11 @@
 | `specialized-ai-policy-writer` | AI 治理政策专家 | 面向中国企业和机构的 AI 治理与合规专家 | 原创 |
 | `specialized-risk-assessor` | 企业风险评估师 | 面向中国企业的全面风险管理专家 | 原创 |
 | `specialized-meeting-assistant` | 会议效率专家 | 面向中国企业的会议管理与效率提升专家 | 原创 |
-| `recruitment-specialist` | 招聘专家 | 招聘运营与人才获取专家，精通国内主流招聘平台、人才评估体系和劳动法合规 | 原创 |
+| `recruitment-specialist` | 人才获取专家 | 招聘运营与人才获取专家，精通国内主流招聘平台、人才评估体系和劳动法合规 | 原创 |
 | `specialized-civil-engineer` | 土木工程师 | 精通全球标准的土木与结构工程专家，覆盖 Eurocode、DIN、ACI、AISC 等多国标准 | 翻译 |
 | `specialized-french-consulting-market` | 法国咨询市场专家 | 法国 ESN/SI 自由职业生态导航专家，精通利润模型、平台机制、薪资代管 | 翻译 |
 | `specialized-korean-business-navigator` | 韩国商务专家 | 韩国商务文化导航专家，精通决策流程、社交智慧、KakaoTalk 商务礼仪 | 翻译 |
-| `technical-translator-agent` | 技术翻译专家 | 专注于技术领域的中英文双向翻译，精通编程、AI、云计算等技术术语 | 翻译 |
+| `technical-translator-agent` | 技术翻译专家 | 专注于技术领域的中英文双向翻译，精通编程、AI、云计算等技术术语 | 原创 |
 | `healthcare-customer-service` | 医疗客服专家 | 专业医疗客户服务专家，处理预约、保险、处方和紧急分诊 | 翻译 |
 | `hospitality-guest-services` | 酒店宾客服务专家 | 全面的酒店宾客服务专家，处理预订、客房服务、礼宾和投诉 | 翻译 |
 | `hr-onboarding` | HR 入职管理专家 | 全面的 HR 入职专家，从入职文档到合规追踪、文化融入和新人支持 | 翻译 |
@@ -380,7 +443,6 @@
 | `loan-officer-assistant` | 信贷经理助手 | 全面的贷款审批助手，从申请预审到合规检查、利率锁定和贷后管理 | 翻译 |
 | `real-estate-buyer-seller` | 房地产经纪助手 | 全面的房产交易专家，从市场分析到报价策略、谈判和成交 | 翻译 |
 | `retail-customer-returns` | 零售退货专家 | 全面的零售退换货处理专家，退货受理、退款处理、欺诈检测和客户挽留 | 翻译 |
-| `specialized-chief-of-staff` | 幕僚长 | 战略运营与跨部门协调专家，会议管理、OKR 追踪、高管沟通和组织变革推进 | 翻译 |
 
 ---
 
@@ -408,6 +470,7 @@
 | Agent ID | 中文名 | 描述 | 来源 |
 |----------|--------|------|------|
 | `game-designer` | 游戏设计师 | 系统与机制架构师——精通 GDD 编写、玩家心理学、经济平衡和游戏循环设计 | 翻译 |
+| `economy-designer` | 游戏经济设计师 | 虚拟经济：货币产出与消耗、成长曲线、通胀控制、合乎道德的付费与长线运营平衡 | 翻译 |
 | `level-designer` | 关卡设计师 | 空间叙事与节奏流程专家——精通布局理论、节奏架构、遭遇战设计和环境叙事 | 翻译 |
 | `narrative-designer` | 叙事设计师 | 故事系统与对话架构师——精通 GDD 对齐的叙事设计、分支对话、世界观架构 | 翻译 |
 | `technical-artist` | 技术美术 | 美术到引擎管线专家——精通 shader、VFX 系统、LOD 管线、性能预算 | 翻译 |
@@ -466,7 +529,30 @@
 | `academic-historian` | 历史学家 | 历史分析、分期、物质文化和史学方法专家 | 翻译 |
 | `academic-narratologist` | 叙事学家 | 叙事理论、故事结构、人物弧线和文学分析专家 | 翻译 |
 | `academic-psychologist` | 心理学家 | 人类行为、人格理论、动机和认知模式专家 | 翻译 |
+| `academic-statistician` | 统计学家 | 定量研究方法、实验设计与因果推断，审视论断的设计与证据强度，报告效应量与区间 | 翻译 |
 | `academic-study-planner` | 学习规划师 | 面向中国考生和终身学习者的个性化学习规划专家，精通考研、考公、司法考试等备考策略 | 原创 |
+
+---
+
+## 医疗健康部 (Healthcare)
+
+面向医疗科技团队的临床证据、战略叙事与政府卫生体系对接。内容基于海外监管语境，国内使用请注意适用范围。
+
+| Agent ID | 中文名 | 描述 | 来源 |
+|----------|--------|------|------|
+| `healthcare-clinical-evidence-agent` | 临床证据专家 | 医疗 AI 的临床论断分级（已验证/方向性/未验证）、同一证据面向不同受众的表述、坚守"决策支持而非诊断" | 翻译 |
+| `healthcare-innovation-strategist` | 医疗创新战略师 | 医疗科技创始人的战略叙事：可信度层级、受众表述矩阵、资历锚点、新监管类别的应对 | 翻译 |
+| `healthcare-sovereign-health-systems-agent` | 主权卫生体系专家 | 对接各国卫生部的 UHC 职责契合、主权与商业对接的区分、双市场上线顺序与开发性金融机构表述 | 翻译 |
+
+---
+
+## 研究部 (Research)
+
+面向文献综述与证据综合的研究方法支持。
+
+| Agent ID | 中文名 | 描述 | 来源 |
+|----------|--------|------|------|
+| `research-synthesist` | 研究综合专家 | 文献综述、来源分级与证据综合，追溯一手来源、识别循环引用并如实校准置信度 | 翻译 |
 
 ---
 
@@ -498,6 +584,7 @@
 
 | Agent ID | 中文名 | 描述 | 来源 |
 |----------|--------|------|------|
+| `security-ai-generated-code-auditor` | AI 生成代码安全审计师 | 审查 AI 生成与 vibe coding 应用中的硬编码密钥、失效 RLS 与提示词注入，推动扫描、修复、复扫闭环。 | 翻译 |
 | `security-appsec-engineer` | 应用安全工程师 | AppSec 专家，通过威胁建模、安全代码审查、SAST/DAST 集成以及开发者安全教育，把"写出安全代码"变成默认选项，从而守护整个软件开发生命周期。 | 翻译 |
 | `security-architect` | 安全架构师 | 资深安全架构师，专精威胁建模（threat modeling）、安全设计（secure-by-design）架构、信任边界分析、纵深防御（defense in depth），以及面向 Web、API、云原生和分布式系统的基于风险的安全评审。 | 翻译 |
 | `security-blockchain-security-auditor` | 区块链安全审计师 | 资深智能合约安全审计专家，专注于漏洞检测、形式化验证、攻击分析，以及为 DeFi 协议和区块链应用撰写全面的审计报告。 | 翻译 |
@@ -505,8 +592,9 @@
 | `security-compliance-auditor` | 合规审计师 | 资深技术合规审计师，专精 SOC 2、ISO 27001、HIPAA 与 PCI-DSS 审计——从就绪度评估、证据收集到认证全程把控。 | 翻译 |
 | `security-incident-responder` | 事件响应专家 | 数字取证与事件响应专家，主导数据泄露调查、遏制活跃威胁、协调危机响应，并撰写能防止问题复发的事后复盘报告。 | 翻译 |
 | `security-penetration-tester` | 渗透测试员 | 进攻性安全专家，开展授权的渗透测试、红队行动以及面向网络、Web 应用和云基础设施的漏洞评估。 | 翻译 |
+| `security-secrets-credential-engineer` | 密钥与凭据治理工程师 | 负责密钥与凭据的检测、预防、托管、轮换和泄露响应，推行短期、最小权限凭据。 | 翻译 |
 | `security-senior-secops` | 高级安全运营工程师 | 防御型应用安全专家。在做任何事之前，先扫描每一次代码提交，检查密钥泄露和敏感数据暴露；随后依据组织的安全标准实现或审计各项安全控制。 | 翻译 |
-| `security-threat-detection-engineer` | 威胁检测工程师 | 资深检测工程师，专注于 SIEM 规则开发、MITRE ATT&CK 覆盖映射、威胁狩猎、告警调优，以及面向安全运营团队的 detection-as-code（检测即代码）流水线。 | 翻译 |
+| `security-threat-detection-engineer` | 威胁检测工程师（安全运营） | 资深检测工程师，专注于 SIEM 规则开发、MITRE ATT&CK 覆盖映射、威胁狩猎、告警调优，以及面向安全运营团队的 detection-as-code（检测即代码）流水线。 | 翻译 |
 | `security-threat-intelligence-analyst` | 威胁情报分析师 | 网络威胁情报专家，负责追踪对手团伙、将攻击活动映射到 MITRE ATT&CK、产出可落地的情报报告，并构建能抓住真实威胁的检测规则。 | 翻译 |
 
 ---
@@ -517,34 +605,37 @@
 
 | 部门 | 数量 | 占比 |
 |------|------|------|
-| 专项部 (Specialized) | 58 | 21.8% |
-| 营销部 (Marketing) | 42 | 15.8% |
-| 工程部 (Engineering) | 42 | 15.7% |
-| 游戏开发部 (Game Development) | 20 | 7.5% |
-| GIS 部 (GIS) | 13 | 4.9% |
-| 安全部 (Security) | 10 | 3.8% |
-| 测试部 (Testing) | 9 | 3.4% |
-| 设计部 (Design) | 9 | 3.4% |
-| 销售部 (Sales) | 9 | 3.4% |
-| 金融部 (Finance) | 9 | 3.4% |
-| 支持部 (Support) | 7 | 2.6% |
-| 付费媒体部 (Paid Media) | 7 | 2.6% |
-| 项目管理部 (Project Management) | 7 | 2.6% |
-| 空间计算部 (Spatial Computing) | 6 | 2.3% |
-| 学术部 (Academic) | 6 | 2.3% |
-| 产品部 (Product) | 5 | 1.9% |
-| 供应链部 (Supply Chain) | 5 | 1.9% |
-| 人力资源部 (HR) | 2 | 0.8% |
-| 法务部 (Legal) | 2 | 0.8% |
-| **总计** | **268** | **100%** |
+| 工程部 (Engineering) | 75 | 22.9% |
+| 专项部 (Specialized) | 64 | 19.5% |
+| 营销部 (Marketing) | 44 | 13.4% |
+| 游戏开发部 (Game Development) | 21 | 6.4% |
+| GIS 部 (GIS) | 13 | 4.0% |
+| 安全部 (Security) | 12 | 3.7% |
+| 设计部 (Design) | 11 | 3.4% |
+| 测试部 (Testing) | 10 | 3.0% |
+| 金融部 (Finance) | 9 | 2.7% |
+| 销售部 (Sales) | 9 | 2.7% |
+| 公司经营部 (Company) | 7 | 2.1% |
+| 付费媒体部 (Paid Media) | 7 | 2.1% |
+| 项目管理部 (Project Management) | 7 | 2.1% |
+| 支持部 (Support) | 7 | 2.1% |
+| 学术部 (Academic) | 7 | 2.1% |
+| 空间计算部 (Spatial Computing) | 6 | 1.8% |
+| 产品部 (Product) | 6 | 1.8% |
+| 供应链部 (Supply Chain) | 5 | 1.5% |
+| 医疗健康部 (Healthcare) | 3 | 0.9% |
+| 人力资源部 (HR) | 2 | 0.6% |
+| 法务部 (Legal) | 2 | 0.6% |
+| 研究部 (Research) | 1 | 0.3% |
+| **总计** | **328** | **100%** |
 
 ### 按来源统计
 
 | 来源 | 数量 | 占比 |
 |------|------|------|
-| 英文版翻译 | 215 | 80.2% |
-| 中国市场原创 | 53 | 19.8% |
-| **总计** | **268** | **100%** |
+| 英文版翻译 | 261 | 79.6% |
+| 中国市场原创 | 67 | 20.4% |
+| **总计** | **328** | **100%** |
 
 ---
 
